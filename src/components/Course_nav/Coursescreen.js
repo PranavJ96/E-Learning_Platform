@@ -8,7 +8,7 @@ const Coursescreen = () => {
             <SideNav/>
             </div>
             <div>
-                <h1 className="heading">My Courses</h1>
+                <span className="heading">My Courses</span>
             <div className="Screen">
             <Courseoptions courseName = "fjhygdf" professorName = "ksjxsvkjsb" classDetails = "jsbdg" classDate = "dksjfbg" courseStatus = "fkjb" />
             <Courseoptions courseName = "fjhygdf" professorName = "ksjxsvkjsb" classDetails = "jsbdg" classDate = "dksjfbg" courseStatus = "fkjb" />
