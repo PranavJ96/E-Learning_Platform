@@ -1,0 +1,11 @@
+.Screen{
+    display: flex;
+    flex-direction: row;
+   
+
+}    
+.heading{
+    text-align: left;
+    padding-left: 30px;
+    
+}
