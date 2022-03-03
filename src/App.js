@@ -1,9 +1,10 @@
 import './App.css';
-import Dashboard from './components/Dashboard/Dashboard';
+import Home from './components/Home/Home';
+
 function App() {
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }}  className="App">
-      <Dashboard/>
+      <Home/>
     </div>
   );
 }

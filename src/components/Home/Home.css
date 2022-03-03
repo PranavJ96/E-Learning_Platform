@@ -1,0 +1,36 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    margin-top: 20px;
+    background-position: center;
+    background-size: cover;
+    width: 900px;
+    height: 350px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-button-next {
+    color: white;
+}
+
+.swiper-button-prev {
+    color: white;
+}
+
+.title {
+    font-size: 30;
+    font-weight: 800;
+}
+
+.tagline {
+    font-size: 10;
+    font-weight: 100;
+}
