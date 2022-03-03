@@ -1,0 +1,34 @@
+.navButton{
+    width:80%;
+    height:36px;
+    text-decoration:none;
+}
+.navButton:hover{
+    background-color: #119DA4!important;
+    color:white!important;
+    height:36px;
+    width:80%;
+    text-decoration:none;
+    border-radius: 18px!important;
+
+}
+.submitButton{
+    background-color: #119DA4!important;
+    color:white!important;
+    height:36px;
+    width:65%;
+    text-decoration:none;
+    border-radius: 18px!important;
+}
+.navActiveButton{
+    background-color: #119DA4!important;
+    color:white!important;
+    height:36px;
+    width:80%;
+    text-decoration:none;
+    border-radius: 18px!important;
+
+}
+.MuiButton-label {
+    justify-content: initial!important;
+}

@@ -1,0 +1,15 @@
+.nav-container{
+    width:170px;
+    border-radius: 25px;
+    background:white;
+    min-height: 630px;
+}
+.navButtons{
+    padding:10px 0px;
+}
+.signoutButton{
+    padding:70px 0px;
+}
+.logoImg{
+    padding:20px 0;
+}
