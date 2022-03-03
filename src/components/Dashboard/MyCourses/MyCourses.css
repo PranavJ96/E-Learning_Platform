@@ -1,0 +1,35 @@
+.MyCourseContainer{
+    background:white;
+    color:gray;
+    text-align:left;
+    border-radius:20px;
+    padding:20px;
+}
+.courseDetails{  
+    border:1px solid gray;  
+    border-radius:10px;
+    padding:10px;
+    margin-top:10px;
+    width:370px;
+    display:flex;
+    color:gray;
+    
+}
+.courseDetailsLogo{
+    padding-top:5px;
+    width:8%;
+}
+.courseDetailsText{
+    width:62%;
+}
+.courseDetailsNavigate{
+    width:30%;
+    padding-top:3px;
+}
+.MyCourseHeader{
+    font-size: 24px;
+    font-weight:600;
+}
+.MyCourseProfName{
+    font-size: 12px;
+}
