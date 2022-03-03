@@ -1,0 +1,78 @@
+.Screen{
+    display: flex;
+    flex-direction: row;
+   gap: 80px;
+
+}    
+.coursedetails{
+    display: flex;
+
+    width:650px;
+    border-radius: 15px;
+    background:white;
+    height: 650px;
+    justify-content: left;
+    flex-direction: column;
+
+    
+    
+    
+}
+.Coursestyle{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.heading_details{
+    font-size: 35px;
+    font-weight:700;
+    text-align: left;
+    color: #625f5f;
+
+}
+
+.imagestyle{
+    width: 630px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.subheading_details{
+    font-size: 30px;
+    font-weight:600;
+    text-align: left;
+    color: gray;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.Text_style{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid black;
+    
+
+   
+}
+.teachersdetails{
+    display: flex;
+
+    width:420px;
+    border-radius: 15px;
+    background:white;
+    height: 420px;
+    margin-top: 47px;
+    flex-direction: column;
+    
+ 
+    
+}
+
+.profilestyle{
+    height: 150px;
+    width: 150px;
+    padding-left: 135px;
+    padding-top: 30px;
+    
+}
