@@ -1,11 +1,9 @@
 import './App.css';
-import SideNav from './components/SideNav/SideNav'
-import Coursescreen from './components/Course_nav/Coursescreen';
-import Coursedetails from './components/Coursedetails/Coursedetails';
+import Chat from './components/Chat/Chat';
 function App() {
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }}  className="App">
-      <Coursedetails/>
+      <Chat/>
     </div>
   );
 }
