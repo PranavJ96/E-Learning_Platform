@@ -1,0 +1,58 @@
+.App {
+  background-color:green;
+  }
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+  }
+
+  .section {
+    gap: 10px;
+    display:flex;
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  }
+
+  .btn{
+  color: black;
+  background-color:grey;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  justify-content: left;
+  }
+  
+  .messages{
+  display: flex;
+  justify-content:left;
+  }
+  
+  .error{
+  display: block;
+  color: red;
+  width: fit-content;
+  height: 30px;
+  padding: 2px;
+  }
+  
+  .success{
+  display: block;
+  color: green;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+
+  .section-align{
+    width: 50%;
+  }
+  
