@@ -1,9 +1,10 @@
 import './App.css';
-import Chat from './components/Chat/Chat';
+import SideNav from './components/SideNav/SideNav'
+import SignIn from './components/SignIn/SignIn'
 function App() {
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }}  className="App">
-      <Chat/>
+      <SignIn/>
     </div>
   );
 }
