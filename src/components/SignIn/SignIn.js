@@ -1,9 +1,6 @@
 import React,{useState} from "react";
 import "./SignIn.css";
-import TextField from "@material-ui/core/TextField";
-import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import Card from "@material-ui/core/Card";
 
  
   export default function Form() {
@@ -125,66 +122,115 @@ import Card from "@material-ui/core/Card";
       };
 
       return(
+         <div>
+         <div className="AppNameProps">
+         <h1>E-Shikshan</h1>
+         </div>
+         <div class="vertical"></div>
+         <div className="TagLineProps">
+            <h2>Begin your Learning Journey with us</h2>
+         </div>
          <div className="section">
          <div className="section-align">
-            <div>
+            <div className="Section-headings">
                <h1>Sign In</h1>
             </div>
                <form>
+                  <div className="label-align">
+                  <div class="labelprops">
                   <label className="label">UserName</label>
+                  </div>
+                  <div class="inputprops">
                   <input onChange={handleUsername} className="input"
                   value={UserName} type="username" />
-
+                  </div>
+                  </div>
+                  <div className="label-align">
+                  <div class="labelprops">  
                   <label className="label">Password</label>
+                  </div>
+                  <div class="inputprops">
                   <input onChange={handlePass} className="input"
                   value={Pass} type="password" />
-
-                  <br></br>
+                  </div>
+                  </div>
+                  <div class="BtnText-align">
                   <Button onClick={handleSignIn} className="btn" type="signin">
                      Sign In</Button>
-
+                     </div>
+                  <div class="forgotPassword">Forgot Password ?</div>
                </form>
                <div className="messages">
                {errorMessage()}
                {successMessage()}
                </div>
+               <div className="Google-label-align">
+                   <img src="/google.png" alt="Google_Logo" className="ImageProps"></img>
+                  <label className="Google-label">Sign In with Google</label> 
+               </div>
             </div>     
             
             <div className="section-align">
-            <div>
+            <div className="Section-headings">
                <h1>Sign Up</h1>
             </div>
                <form>
+                  <div class="label-align">
+                  <div class="labelprops"> 
                   <label className="label">FirstName</label>
+                  </div>
+                  <div class="inputprops">
                   <input onChange={handleFirstName} className="input"
                   value={FirstName} type="firstname" />
-
+                  </div>
+                  </div>
+                  <div class="label-align">
+                  <div class="labelprops"> 
                   <label className="label">LastName</label>
+                  </div>
+                  <div class="inputprops">
                   <input onChange={handleLastName} className="input"
                   value={LastName} type="lastname" />
-
+                  </div>
+                  </div>
+                  <div class="label-align">
+                  <div class="labelprops"> 
                   <label className="label">Email ID</label>
+                  </div>
+                  <div class="inputprops">
                   <input onChange={handleEmailID} className="input"
                   value={EmailID} type="lastname" />
-
+                  </div>
+                  </div>
+                  <div class="label-align">
+                  <div class="labelprops"> 
                   <label className="label">Password</label>
+                  </div>
+                  <div class="inputprops">
                   <input onChange={handlePassword} className="input"
                   value={Password} type="password" />
-
+                  </div>
+                  </div>
+                  <div class="label-align">
+                  <div class="labelprops">
                   <label className="label">Confirm Password</label>
+                  </div>
+                  <div class="inputprops">
                   <input onChange={handleConfirmPassword} className="input"
                   value={ConfirmPassword} type="password" />
-
-                  <br></br>
+                  </div>
+                  </div>
+                  <div class="BtnText-align">
                   <Button onClick={handleAccountCreation} className="btn" 
                   type="createaccount">Create Account</Button>
-
+                  </div>
                </form>
                <div className="messages">
                {errorMessage1()}
                {successMessage1()}
                </div>
             </div> 
-            </div>     
+            </div> 
+            </div>    
       );
   }
