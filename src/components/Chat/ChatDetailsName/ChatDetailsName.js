@@ -5,7 +5,7 @@ function ChatDetailsName(){
     return(
         <div Class="ChatDetailsNameItem">
           <div class="ChatDetailsNameProfilePic">
-            <img src="/teacher.jpg" alt="profilepic" class="profilePic" width="100px" />
+            <img src="/teacher.jpg" alt="profilepic" class="charDetialsProfilePic" width="100px" />
           </div>
           <div class="ChatDetailsNameNameAndText">
             <div class="ChatDetailsNameName">

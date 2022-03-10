@@ -5,7 +5,7 @@ import { orange } from "@material-ui/core/colors";
 function AccountDetailsStudent() {
   return (
     <div class="accountDetailsContainer">
-      <img src="/teacher.jpg" alt="Profile_Picture" class="profilePic" />
+      <img src="/teacher.jpg" alt="Profile_Picture" class="accountDetailsProfilePic" />
       <div class="accountDetailsName">Pranav Jaya Nayak</div>
       <div class="accountDetails_coursesData">
         <div>

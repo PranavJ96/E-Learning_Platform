@@ -4,7 +4,7 @@ function ChatList() {
   return (
     <div class="chatListContainer">
       <div>
-        <input class="editUserProfileInputBox" placeholder="Search Chat" />
+        <input class="chatListInputBox" placeholder="Search Chat" />
       </div>
       <div class="chatListButtons">
         <Button className="chatListButton">Teachers</Button>

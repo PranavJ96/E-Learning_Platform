@@ -11,8 +11,9 @@
 }
 .editUserProfileInputBoxEmail{
     border: 1px solid #C4C4C4;
-    width:60%;
+    width:98%;
     margin:10px 0px;
+    padding-left:5px;
     text-align-last: auto;
     height:25px;
     box-shadow: 0px 1px 1px 1px #C4C4C4;
@@ -22,6 +23,7 @@
     border: 1px solid #C4C4C4;
     width:45%;
     margin:10px 0px;
+    padding-left:5px;
     text-align-last: auto;
     height:25px;
     box-shadow: 0px 1px 1px 1px #C4C4C4;
@@ -42,6 +44,7 @@
 }
 .editUserProfileButtons{
     text-align-last: center;
+    margin-top:5px;
 }
 .EditaccountDetailButton1 {
     background-color: #119da4 !important;

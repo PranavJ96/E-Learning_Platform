@@ -16,7 +16,7 @@
 .ChatListContainer{
     background:white;
     color:gray;
-    border-radius:15px;
+    border-radius: 15px 0px 0px 15px;
     border-right: 1px solid #80808026;
     text-align:left;
     height:534px;
