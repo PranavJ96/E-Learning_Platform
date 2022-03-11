@@ -3,8 +3,8 @@ import "swiper/swiper.min.css";
 import React from "react";
 import SwiperCore, { EffectCoverflow, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
+
+
 import "./Home.css";
 
 
@@ -14,19 +14,13 @@ const Home = () => {
     return (
 
 
-        <
-        container className = "Swiper" >
-        <
-        div >
-        <
-        div className = "title" >
-        E - Shikshan <
-        /div> <
-        div className = "tagline" > Begin your learning from here < /div>
+        <container className = "Swiper" >
+        <div >
+        <div className = "title" >
+        E - Shikshan </div> <div className = "tagline" > Begin your learning from here </div>
 
-        <
-        /div> <
-        Swiper
+        </div> 
+        <Swiper
 
         effect = { "coverflow" }
         grabCursor = { true }
@@ -45,54 +39,37 @@ const Home = () => {
         }
         pagination = { true }
 
-        navigation >
+        navigation>
 
-        <
-        div className = "Images" >
-        <
-        SwiperSlide >
-        <
-        img src = "./Scroll1.png"
-        alt = "Scroll1" / >
-        <
-        /SwiperSlide> <
-        SwiperSlide >
-        <
-        img src = "./Scroll3.png"
-        alt = "Scroll3" / >
-        <
-        /SwiperSlide> <
-        SwiperSlide >
-        <
-        img src = "./Scroll1.png"
-        alt = "Scroll1" / >
-        <
-        /SwiperSlide> <
-        SwiperSlide >
-        <
-        img src = "./Scroll3.png"
-        alt = "Scroll3" / >
-        <
-        /SwiperSlide> <
-        SwiperSlide >
-        <
-        img src = "./Scroll1.png"
-        alt = "Scroll1" / >
-        <
-        /SwiperSlide> <
-        SwiperSlide >
-        <
-        img src = "./Scroll3.png"
-        alt = "Scroll3" / >
-        <
-        /SwiperSlide>
+        <div className = "Images" >   
+        <SwiperSlide >
+        <img src = "./Scroll1.png"
+        alt = "Scroll1"/>
+        </SwiperSlide> 
+        <SwiperSlide >
+        <img src = "./Scroll3.png"
+        alt = "Scroll3"/>
+        </SwiperSlide> 
+        <SwiperSlide>
+        <img src = "./Scroll1.png"
+        alt = "Scroll1"/>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src = "./Scroll3.png"
+        alt = "Scroll3"/>
+        </SwiperSlide> 
+        <SwiperSlide>
+        <img src = "./Scroll1.png"
+        alt = "Scroll1"/>
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src = "./Scroll3.png"
+        alt = "Scroll3"/>
+        </SwiperSlide>
+        </div>
 
-        <
-        /div>
-
-        <
-        /Swiper> < /
-        container >
+        </Swiper> 
+        </container>
     );
 };
 

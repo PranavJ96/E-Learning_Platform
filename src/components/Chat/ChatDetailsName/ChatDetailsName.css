@@ -1,0 +1,106 @@
+.ChatDetailsNameContainer{
+
+}
+.editUserProfileInputBox{
+    border: 1px solid #C4C4C4;
+    width:100%;
+    margin-bottom:20px;
+    text-align-last: auto;
+    height:25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+}
+.ChatDetailsNameButton {
+    background-color: #119da4 !important;
+    color: white !important;
+    font-size: 14px !important;
+    width:100px;
+    padding-left:18px!important;
+    text-decoration: none !important;
+    height:25px;
+    text-transform:none!important;
+    border-radius: 10px !important;
+  }
+  .ChatDetailsNameButtonNotSelected{
+    background-color: White !important;
+    color: #119da4 !important;
+    font-size: 14px !important;
+    width:100px;
+    padding-left:18px!important;
+    border:3px solid #119da4!important;
+    text-decoration: none !important;
+    text-transform:none!important;
+    height:25px;
+    border-radius: 16px !important;
+  }
+  .ChatDetailsNameButtons{
+    display: flex;
+    justify-content: space-between;
+  }
+  .ChatDetailsNameNewChat {
+    width: 30px;
+    height: 30px;
+    background: #119da4;
+    color:white;
+    border-radius: 50%;
+    padding: 0px 10px 30px 10px;
+    font-size: 40px;
+  }
+  .ChatDetailsNameAddNewChatText{
+      font-size:12px;
+      align-self: center;
+  }
+  .ChatDetailsNameAddNew{
+      display:flex;
+  }
+  .charDetialsProfilePic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .ChatDetailsNameItem{
+      margin-top:5px;
+      cursor:pointer;
+      display:flex;
+      padding:3px 10px;
+      border: 1px solid #80808026;
+      box-shadow: 3px 3px 3px #80808026;
+      border-radius:15px;
+  }
+  .ChatDetailsNameLastText{
+      font-size:12px;
+  }
+  .ChatDetailsNameName{
+      font-size:16px;
+      color:black;
+      font-weight:bold;
+  }
+  .ChatDetailsNameProfilePic{
+      width:20%;
+  }
+  .ChatDetailsNameNameAndText{
+      width:60%;
+      align-self: center;
+  }
+  .ChatDetailsNameChatTime{
+      font-size:12px;
+  }
+  .ChatDetailsNameChatNumber{
+      color: White;
+      background-color:#4267B2;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      text-align-last: center;
+  }
+  .ChatDetailsCallOptions{
+      display:flex;
+      align-self: center;
+
+  }
+  .chatDetailsNameAudio{
+      margin-left:20px;
+  }
+  .AudioCall{
+      color:green;
+  }

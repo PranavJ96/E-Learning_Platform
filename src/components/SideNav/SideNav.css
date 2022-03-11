@@ -8,7 +8,10 @@
     padding:10px 0px;
 }
 .signoutButton{
-    padding:70px 0px;
+    padding-top:125px;
+}
+.signoutButtonTeacher{
+    padding-top:13px;
 }
 .logoImg{
     padding:20px 0;

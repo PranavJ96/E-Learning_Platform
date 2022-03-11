@@ -1,0 +1,12 @@
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    color: #625f5f;
+}
+
+.sideNav1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
