@@ -6,7 +6,7 @@ function Dashboard() {
     return (
       <div class="container">
         <div class="sideNav">
-          <SideNav />
+          <SideNav  pageName="profile"/>
         </div>
         <div class="main-content-dashboard">
           <div class="myProfile-Header">My Profile</div>

@@ -22,11 +22,12 @@
     width:8%;
 }
 .deadlineDetailsText{
-    width:55%;
+    width:50%;
 }
 .deadlineDetailsNavigate{
-    width:37%;
+    width:42%;
     font-weight:bold;
+    display:flex;
     padding-top:3px;
 }
 .MyDeadlineHeader{
@@ -36,4 +37,11 @@
 .MyDeadlineDate{
     font-size: 12px;
     font-weight:bold;
+}
+.deadlineDetailsRed{
+    width:20px;
+    height:20px;
+    background:red;
+    margin:3px 0 0 4px;
+    border-radius:50%;
 }

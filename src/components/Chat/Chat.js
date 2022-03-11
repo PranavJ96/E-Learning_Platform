@@ -7,7 +7,7 @@ function Chat() {
   return (
     <div class="container">
       <div class="sideNav">
-        <SideNav />
+        <SideNav pageName="Chat"/>
       </div>
       <div class="main-content-dashboard">
         <div class="chat-Header">Chat</div>
