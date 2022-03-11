@@ -1,0 +1,50 @@
+    .Header {
+        height: 80px;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 10px;
+        text-align: left;
+        box-shadow: 2px 2px 5px;
+        display: flex;
+        flex-direction: row;
+        /* position: relative; */
+    }
+    
+    .imagestyle2 {
+        max-height: 80px;
+        max-width: 80px;
+        /* position: absolute; */
+        padding-top: 5px;
+    }
+    
+    .Text {
+        /* position: absolute; */
+        padding-left: 20px;
+        padding-top: 4px;
+    }
+    
+    .TagLine {
+        display: flex;
+        flex-direction: column;
+        /* position: absolute; */
+        font-size: 20px;
+        width: 400px;
+    }
+    
+    .button1 {
+        /* position: absolute; */
+        padding-top: 10px;
+        padding-left: 10px;
+        height: 35px;
+        width: 120px;
+        background-color: #119DA4;
+        color: white;
+        border-radius: 10px;
+        font-size: 15px;
+        box-shadow: 4px 4px 5px;
+    }
+    
+    .Button {
+        padding-left: 850px;
+        padding-top: 17px;
+    }
