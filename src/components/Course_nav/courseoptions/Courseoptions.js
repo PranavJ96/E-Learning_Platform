@@ -2,17 +2,17 @@ import "./Courseoptions.css";
 const Courseoptions = ({courseName,professorName,classDetails,classDate,courseStatus}) => {
     return (
         
-            <div className="nav-container2">
+            <div className="courseblock">
                 <div className="coursename">
-                    <img className="imagestyle" src="/computer.png" />
-                    <h2 className="textstyle">{courseName}</h2>
+                    <img className="imagestyle_CourseIcon" src="/computer.png" />
+                    <h2 className="textstyle_CourseName">{courseName}</h2>
                 </div>
-                <span className="textstyle3">{professorName}</span>
-                <span className="textstyle3">{classDetails}</span>
-                <span className="textstyle3">{classDate}</span>
+                <span className="textstyle_CourseDetails">By:  {professorName}</span>
+                <span className="textstyle_CourseDetails">Class Name:  {classDetails}</span>
+                <span className="textstyle_CourseDetails">Duration:  {classDate}</span>
 
                 <div className="cousename">
-                    <span className="textstyle4">{courseStatus}</span>
+                    <span className="textstyle_Status">{courseStatus}</span>
 
 
 

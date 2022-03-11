@@ -7,13 +7,12 @@ const Coursescreen = () => {
             <div className="SideNavstyle" >
             <SideNav/>
             </div>
-            <div>
-                <span className="heading">My Courses</span>
-            <div className="Screen">
-            <Courseoptions courseName = "fjhygdf" professorName = "ksjxsvkjsb" classDetails = "jsbdg" classDate = "dksjfbg" courseStatus = "fkjb" />
-            <Courseoptions courseName = "fjhygdf" professorName = "ksjxsvkjsb" classDetails = "jsbdg" classDate = "dksjfbg" courseStatus = "fkjb" />
-            </div>
-            </div>
+            <div className="coursedisplay">
+            <span className="heading">My Courses</span>
+            <Courseoptions courseName = "Java Programming" professorName = "Mr Java Developer" classDetails = "k1501" classDate = "August-December" courseStatus = "Ongoing" />
+            
+             </div>
+            
         </div>
     );
 };

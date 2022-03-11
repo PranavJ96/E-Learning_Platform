@@ -1,4 +1,4 @@
-.Screen{
+.Screen_Coursedetails{
     display: flex;
     flex-direction: row;
    gap: 80px;
@@ -32,10 +32,12 @@
 
 }
 
-.imagestyle{
+.Coursedetailsimage_style{
     width: 630px;
     height: 250px;
     border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .subheading_details{
