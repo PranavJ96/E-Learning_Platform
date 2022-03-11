@@ -1,3 +1,18 @@
+import './App.css';
+import SideNav from './components/SideNav/SideNav'
+import SignIn from './components/SignIn/SignIn'
+import StudentRegistration from './components/StudentRegistration/StudentRegistration'
+function App() {
+  return (
+    <div style={{ backgroundImage: `url('/background.jpg')` }}  className="App">
+      <StudentRegistration/>
+    </div>
+  );
+}
+
+export default App;
+
+/*
 import "./App.css";
 import Chat from "./components/Chat/Chat";
 import ReactDOM from "react-dom";
@@ -29,3 +44,4 @@ export default function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
+*/
