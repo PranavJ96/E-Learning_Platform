@@ -1,22 +1,22 @@
 import React,{useState} from "react";
 import "./SignIn.css";
+import Axios from "axios";
 import Button from "@material-ui/core/Button";
 
  
   export default function Form() {
      //States for SignIn and SignUp
-    const [UserName, setUsername] = React.useState(" ");
-    const [Pass, setPass] = React.useState(" ");
-    const [FirstName, setFirstName] = React.useState(" ");
-   const [LastName, setLastName] = React.useState(" ");
-   const [EmailID, setEmailID] = React.useState(" ");
-   const [Password, setPassword] = React.useState(" ");
-   const [ConfirmPassword, setCPassword] = React.useState(" ");
+    const [UserName, setUsername] = React.useState("");
+    const [Pass, setPass] = React.useState("");
+    const [FirstName, setFirstName] = React.useState("");
+   const [LastName, setLastName] = React.useState("");
+   const [EmailID, setEmailID] = React.useState("");
+   const [Password, setPassword] = React.useState("");
+   const [ConfirmPassword, setCPassword] = React.useState("");
 
     //States for checking errors
     const [SignIn, setSignIn] = useState(false);
     const [error, setError] = useState(false);
-
       const handleUsername = (e) => {
          setUsername(e.target.value);
          setSignIn(false);
@@ -31,8 +31,17 @@ import Button from "@material-ui/core/Button";
          {
             setError(true);
          } else {
-            setSignIn(true);
-            setError(false);
+            Axios.post('http://localhost:5000/api/login',{Name:UserName,Password:Pass}).then((response)=>{
+               if(response.data.message){
+                  setError(true);
+               }
+               else{
+                  console.log(response.data[0].ID)
+                  localStorage.setItem('userType', response.data[0].UserType)
+                  setError(false);
+                  window.location = 'http://localhost:3000/dashboard';
+               }
+            });
          }
       
       };
@@ -56,7 +65,7 @@ import Button from "@material-ui/core/Button";
          style={{
           display: error ? '' : 'none',
          }}>
-            <h4>Please enter both username and password</h4>
+            <h4>The login credentials are incorrect.</h4>
             </div>
          );
       };
@@ -155,7 +164,7 @@ import Button from "@material-ui/core/Button";
                   </div>
                   </div>
                   <div class="BtnText-align">
-                  <Button onClick={handleSignIn} className="btn" type="signin">
+                  <Button onClick={handleSignIn} className="btnSignIn" type="signin">
                      Sign In</Button>
                      </div>
                   <div class="forgotPassword">Forgot Password ?</div>

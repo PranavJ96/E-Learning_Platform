@@ -12,7 +12,7 @@ function MyDeadlines() {
           <div>Computer Science</div>
           <div class="MyDeadlineDate">10.03.2022</div>
         </div>
-        <div class="deadlineDetailsNavigate">Assignment Due</div>
+        <div class="deadlineDetailsNavigate">Assignment Due<div class="deadlineDetailsRed"></div></div>
       </div>
     </div>
   );

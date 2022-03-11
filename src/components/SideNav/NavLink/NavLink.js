@@ -8,12 +8,68 @@ import AccountBox from '@material-ui/icons/AccountBox';
 import Person from '@material-ui/icons/Person';
 import LiveTv from '@material-ui/icons/LiveTv';
 const NavLink = ({value,path,isActive, isSubmit}) => {
-    return(
+    if(value === "Dashboard"){
+        return(
         <div>
-           <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<LiveTv />}>
+           <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<DashboardRounded />}>
                 {value}
             </Button>
         </div>
     );
+    }
+    else if(value === "Course"){
+        return(
+            <div>
+               <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<Book />}>
+                    {value}
+                </Button>
+            </div>
+        );
+    }
+    else if(value === "Student"){
+        return(
+            <div>
+               <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<Person />}>
+                    {value}
+                </Button>
+            </div>
+        );
+    }
+    else if(value === "Chat"){
+        return(
+            <div>
+               <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<Chat />}>
+                    {value}
+                </Button>
+            </div>
+        );
+    }
+    else if(value === "Schedule"){
+        return(
+            <div>
+               <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<CalendarToday />}>
+                    {value}
+                </Button>
+            </div>
+        );
+    }
+    else if(value === "Profile"){
+        return(
+            <div>
+               <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<AccountBox />}>
+                    {value}
+                </Button>
+            </div>
+        );
+    }
+    else{
+        return(
+            <div>
+               <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<LiveTv />}>
+                    {value}
+                </Button>
+            </div>
+        );
+    }
 };
 export default NavLink;

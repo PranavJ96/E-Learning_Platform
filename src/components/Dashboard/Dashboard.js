@@ -8,7 +8,7 @@ function Dashboard() {
   return (
     <div class="container">
       <div class="sideNav">
-        <SideNav />
+        <SideNav  pageName="dashboard"/>
       </div>
       <div class="main-content-dashboard">
         <div class="dashboard-Header">Dashboard</div>

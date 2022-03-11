@@ -4,12 +4,12 @@ function Schedule() {
   return (
     <div class="container">
       <div class="sideNav">
-        <SideNav />
+        <SideNav  pageName="schedule"/>
       </div>
       <div class="main-content-dashboard">
         <div class="chat-Header">Schedule</div>
         <div class="scheduleContent">
-          <img src="/schedule.jpg" className="scheduleImage" />
+          <img src="/schedule.jpg" className="scheduleImage" alt="CalendarImage"/>
         </div>
       </div>
     </div>
