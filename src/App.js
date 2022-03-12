@@ -16,6 +16,7 @@ import Home from "./components/Home/Home";
 import Student from "./components/Student/Student";
 import StudentRegistration from "./components/StudentRegistration/StudentRegistration";
 import AddCourse from "./components/AddCourse/AddCourse";
+
 export default function App() {
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }} className="App">
@@ -24,9 +25,6 @@ export default function App() {
         <Routes>
           <Route exact path='/dashboard' element={<PrivateRoute/>}>
             <Route exact path='/dashboard' element={<Dashboard/>}/>
-          </Route>
-          <Route exact path='/liveclass' element={<PrivateRoute/>}>
-            <Route exact path='/liveclass' element={<LiveClass/>}/>
           </Route>
           <Route exact path='/profile' element={<PrivateRoute/>}>
           <Route path="/profile" exact element={<MyProfile />} />
@@ -48,6 +46,11 @@ export default function App() {
           <Route path="/home" exact element={<Home />} />
           <Route path="/signup" exact element={<StudentRegistration />} />
           <Route path="/addcourse" exact element={<AddCourse />} />
+          <Route path="/home" exact element={<Home />} />
+          <Route path="/signup" exact element={<StudentRegistration />} />
+          <Route path="/addcourse" exact element={<AddCourse />} />
+          <Route path="/liveclass" exact element={<LiveClass />} />
+          <Route path="/" exact element={<Home/>} />
         </Routes>
       </Fragment>
       </BrowserRouter>
@@ -56,4 +59,3 @@ export default function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
