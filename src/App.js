@@ -10,6 +10,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schedule from "./components/Schedule/Schedule";
 import Form from "./components/SignIn/SignIn";
 import Student from "./components/Student/Student";
+import StudentRegistration from "./components/StudentRegistration/StudentRegistration";
+import AddCourse from "./components/AddCourse/AddCourse";
+
 export default function App() {
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }} className="App">
@@ -35,6 +38,8 @@ export default function App() {
           <Route path="/course" exact element={<Coursescreen />} />
           </Route>
           <Route path="/login" exact element={<Form />} />
+          <Route path="/signup" exact element={<StudentRegistration />} />
+          <Route path="/addcourse" exact element={<AddCourse />} />
         </Routes>
       </Fragment>
       </BrowserRouter>
