@@ -9,6 +9,8 @@ import MyProfile from "./components/MyProfile/MyProfile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schedule from "./components/Schedule/Schedule";
 import Form from "./components/SignIn/SignIn";
+import StudentRegistration from "./components/StudentRegistration/StudentRegistration";
+
 export default function App() {
   // function requireAuth() {
   //   let userType = localStorage.getItem("userType");
@@ -40,6 +42,7 @@ export default function App() {
           <Route path="/course" exact element={<Coursescreen />} />
           </Route>
           <Route path="/login" exact element={<Form />} />
+          <Route path="/signup" exact element={<StudentRegistration />} />
         </Routes>
       </Fragment>
       </BrowserRouter>

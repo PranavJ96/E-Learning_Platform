@@ -12,7 +12,7 @@ app.use(cors());
     connectionLimit:10,
     host:'localhost',
     user:'root',
-    password:'password',
+    password:'',
     database:'eshikshan',
 })
 
