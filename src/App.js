@@ -12,6 +12,8 @@ import Form from "./components/SignIn/SignIn";
 import Student from "./components/Student/Student";
 import StudentRegistration from "./components/StudentRegistration/StudentRegistration";
 import AddCourse from "./components/AddCourse/AddCourse";
+import Home from "./components/Home/Home";
+import LiveClass from "./components/LiveClass/LiveClass";
 
 export default function App() {
   return (

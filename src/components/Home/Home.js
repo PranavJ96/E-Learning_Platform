@@ -9,7 +9,6 @@ import "./Home.css";
 import Header from "../Header/Header";
 
 
-import "./Home.css";
 
 
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
