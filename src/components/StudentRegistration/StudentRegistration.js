@@ -145,9 +145,15 @@ export default function StudentRegistration(){
                 <div class="labelprops">
                     <label className="label">Final marks in baccalaureate</label>
                 </div>
+                <div className="inputprops-align">
                 <div class="inputprops">
-                    <input onChange={handleFinalMarks} className="input"
+                Marks Obtained<input onChange={handleFinalMarks} className="marks-input"
                     value={FinalMarks} type="text"/>
+                </div>
+                <div class="inputprops">
+                Total<br></br><input onChange={handleFinalMarks} className="marks-input"
+                    value={FinalMarks} type="text"/>
+                </div>
                 </div>
             </div>
             

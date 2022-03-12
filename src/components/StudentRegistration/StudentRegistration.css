@@ -38,8 +38,24 @@
     border-radius:10px;
     width: 250px;   
 }
+.marks-input{
+    border: 1px solid #C4C4C4;
+    text-align-last: auto;
+    height:25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    width: 70px;
+    text-align: center;
+}
 .inputprops{
-    width: 60%;
+    width: 80%;
+    font-family: Roboto;
+    color: gray;
+}
+
+.inputprops-align{
+    display: flex;
+    margin: 10px 25px;
 }
 
 .radioinput{
@@ -47,7 +63,7 @@
     color: gray;
     font-size: large;
     display: flex;
-    margin: 10px 70px;
+    margin: 10px 15px;
     text-align: right;
 }
 
