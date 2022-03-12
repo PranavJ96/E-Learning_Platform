@@ -2,11 +2,13 @@
     background:white;
     color:gray;
     text-align:left;
+    height:239px;
+    width: 395px;
     border-radius:20px;
     padding:20px;
 }
 .courseDetails{  
-    border:1px solid gray;  
+    border:1px solid #80808026;  
     border-radius:10px;
     padding:10px;
     margin-top:10px;

@@ -1,13 +1,16 @@
 .Screen_Coursedetails{
     display: flex;
     flex-direction: row;
-   gap: 80px;
+
+   width: 80%;
+   margin: auto;
+   gap: 30px;
 
 }    
 .coursedetails{
     display: flex;
 
-    width:650px;
+    width:550px;
     border-radius: 15px;
     background:white;
     height: 650px;
@@ -33,11 +36,12 @@
 }
 
 .Coursedetailsimage_style{
-    width: 630px;
+    width: 530px;
     height: 250px;
     border-radius: 15px;
     padding-left: 10px;
     padding-top: 10px;
+    border: none;
 }
 
 .subheading_details{
@@ -47,12 +51,13 @@
     color: gray;
     padding-left: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .Text_style{
     text-align: left;
-    padding-left: 10px;
-    padding-top: 10px;
-    border: 1px solid black;
+    padding:10px;
+    border: 2px solid #80808026;
+    margin: 0 10px;
     
 
    
@@ -60,21 +65,131 @@
 .teachersdetails{
     display: flex;
 
-    width:420px;
+    width:300px;
     border-radius: 15px;
     background:white;
-    height: 420px;
+    height:fit-content;
     margin-top: 47px;
     flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
     
  
     
+}
+.uploadCourse{
+    width:281px;
+    border-radius: 15px;
+    background:white;
+    height:fit-content;
+    margin-top: 47px;
+    flex-direction: column;
+    align-items: center;
+    padding:10px ;  
+    height:271px;
+   
 }
 
 .profilestyle{
     height: 150px;
     width: 150px;
-    padding-left: 135px;
-    padding-top: 30px;
+    border-radius: 15px;
     
+    
+}
+.Teacher_Heading{
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.Teacher_Heading2{
+    font-size: larger;
+    font-weight: bold;
+   
+}
+.Teacher_Heading3{
+    font-size: large;
+   
+    
+   
+}
+.UploadFiles{
+    font-size: large;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.UploadFiles_OR{
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.Message_Teacher{
+    padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+
+.button{
+    background-color: #119DA4;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button_Assignments{
+    background-color: #119DA4;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+
+.TeacherandUpload{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Upload_Content{
+    border-style: dashed;
+    margin:10px;
+    padding-top: 10px;
+    border-color: gray;
+    border-radius: inherit;
+    padding-bottom: 10px;
+    height: 225px;
+    
+   
+}
+.Assignments_Download{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+       
+}
+.Assignments{
+    text-align: left;
+   
+    
+    
+}
+.Assignments_list{
+    border: 2px solid #80808026;
+    margin: 0 10px;
+}
+.Buttons_Assignment{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
