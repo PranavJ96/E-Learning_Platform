@@ -8,21 +8,26 @@ import "swiper/swiper.min.css";
 import "./Home.css";
 import Header from "../Header/Header";
 
+
+import "./Home.css";
+
+
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
 const Home = () => {
     return (
 
-        
+
 
         <container className="Swiper">
+            <div className="homeheader">
+                <Header />
+            </div>
 
-            <Header/>
-            
-        
+
             <Swiper
 
-                effect={"coverflow"} 
+                effect={"coverflow"}
                 grabCursor={true}
                 centeredSlides={true}
                 slidesPerView={"auto"}
@@ -64,22 +69,22 @@ const Home = () => {
 
             </Swiper>
             <div>
-            <div className="successstories">
-We have some Success Stories for you...
-            </div>
-            <div className="ss">
-            <div className="successstories1" >
-              <img  src="./ss1.jpg"></img> 
-              Prachi is a student who is about to graduate this year in December with majors in Psychology and Sociology
-            </div>
-            <div className="successstories2" >
-              <img  src="./ss2.jpg"></img> 
-              Stewart: “As a teacher, I always evaluated my success by the growth I saw in my students. This application not.
-            </div> 
-            </div>
+                <div className="successstories">
+                    We have some Success Stories for you...
+                </div>
+                <div className="ss">
+                    <div className="successstories1" >
+                        <img src="./ss1.jpg"></img>
+                        Prachi is a student who is about to graduate this year in December with majors in Psychology and Sociology
+                    </div>
+                    <div className="successstories2" >
+                        <img src="./ss2.jpg"></img>
+                        Stewart: “As a teacher, I always evaluated my success by the growth I saw in my students. This application not.
+                    </div>
+                </div>
             </div>
         </container>
-        
+
     );
 };
 

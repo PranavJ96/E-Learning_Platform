@@ -1,0 +1,164 @@
+.App {
+  background-color:green;
+  }
+
+.AppNameProps{
+  text-align: left;
+  margin: -30px 300px;
+  font-size: x-large;
+  font-family: Roboto;
+  color:rgb(87, 82, 82) ;
+}
+
+.TagLineProps{
+  text-align: left;
+  margin: 0px 300px;
+  font-family: Roboto;
+  font-size:x-small;
+  color: rgb(87, 82, 82);
+}
+
+.Section-headings{
+  font-family: Roboto;
+  font-size: large;
+  color: rgb(87, 82, 82);
+}
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: gray;
+  padding: 10px 0px;
+  text-align: right;
+  font-family: Roboto;
+  }
+
+  .label-align{
+    display: flex;
+    gap: 5%;
+  }
+
+  .labelprops{
+    width: 40%;
+  }
+
+  .section {
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  .input{
+    border: 1px solid #C4C4C4;
+    margin:10px;
+    text-align-last: auto;
+    height:25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    width: 250px;
+  }
+
+  .inputprops{
+    width: 60%;
+  }
+
+  .btn{
+    background-color: #119da4 !important;
+    color: white !important;
+    font-size: 15px !important;
+    text-decoration: none !important;
+    text-transform:none!important;
+    border-radius: 16px !important;
+    width: 130px;
+    margin: 10px !important;
+    
+  }
+  .btnSignIn{
+    background-color: #119da4 !important;
+    color: white !important;
+    font-size: 15px !important;
+    padding-left:35px!important;
+    text-decoration: none !important;
+    text-transform:none!important;
+    border-radius: 16px !important;
+    width: 130px;
+    margin: 10px !important;
+    
+  }
+  .BtnText-align{
+    text-align:center;
+  }
+  .messages{
+  display: flex;
+  justify-content:center;
+  }
+  
+  .error{
+  display: block;
+  color: red;
+  width: fit-content;
+  height: 30px;
+  padding: 2px 0px 50px;
+  text-align: center;
+  }
+  
+  .success{
+  display: block;
+  color: green;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  }
+
+  .section-align{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    border: 1px solid #C4C4C4;
+    text-align: center;
+  }
+  
+  .forgotPassword{
+    text-decoration:underline;
+    color: gray;
+    margin: 10px;
+    justify-content: center;
+    font-family: Roboto;
+  }
+
+  .Google-label-align{
+    display: flex;
+    gap: 10%;
+    justify-content:center;
+    margin:20px 150px;
+    box-shadow: 1px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    background-color: rgba(255, 255, 255, 0.527);
+    width: 250px;
+    border: 1px solid #C4C4C4;
+  }
+
+  .Google-label{
+    display:block;
+    font-size:large;
+    color: gray;
+    padding: 10px 0px;
+    font-family: Roboto;
+  }
+
+  .ImageProps{
+  width: 25px;
+  border-radius: 50%;
+  margin: 5px;
+  }
+
+  .vertical {
+    border-left: 10px solid gray;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+    border-radius:10px;
+    margin: 60px 0px 20px;
+}

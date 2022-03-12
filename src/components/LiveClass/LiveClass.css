@@ -1,0 +1,152 @@
+.liveclasstitle {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: left;
+    color: #625f5f;
+    justify-content: center;
+}
+
+.livechattitle {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    color: #625f5f;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.liveclasstitle2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    color: #625f5f;
+    padding-left: 20px;
+}
+
+.sideNav1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    display: flex;
+}
+
+.liveclassimage {
+    height: 250px;
+    width: 400px;
+}
+
+.background {
+    flex-direction: column;
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.date {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.endbutton {
+    background-color: red;
+    height: 20px;
+    width: 70px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    padding-top: 4px;
+    margin: 15px;
+}
+
+.uppertext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.background2 {
+    margin-left: 48px;
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.record {
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+}
+
+.share {
+    height: 50px;
+    width: 50px;
+    padding-top: 5px;
+}
+
+.LiveChat {
+    background-color: white;
+    height: 599px;
+    width: 210px;
+    margin-left: 530px;
+    margin-top: -500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.livechatDetailsLeftChat {
+    background: #119da4;
+    color: white;
+    padding: 5px;
+    border-radius: 15px 15px 15px 0px;
+    width: 80%;
+    height: fit-content;
+    font-size: 12pxs;
+    text-align: left;
+}
+
+.liveChatDetailsTimeOfChat {
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: 20PX;
+}
+
+.liveChatDetailsTimeOfChat2 {
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: 254PX;
+}
+
+.Chatbubble {
+    display: flex;
+    flex-direction: row;
+}
+
+.profilePicInChat_live {
+    height: 20px;
+    width: 20px;
+    margin-top: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+}

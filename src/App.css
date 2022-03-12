@@ -1,8 +1,9 @@
 .App {
     text-align: center;
-    min-height: 100vh;
+    min-height: 87.5vh;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 3%;
 }
 
 .App-logo {
@@ -38,4 +39,11 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }

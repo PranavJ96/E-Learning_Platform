@@ -1,0 +1,13 @@
+.lectureDetailsLogo{
+    padding-top:5px;
+    width:8%;
+}
+.lectureDetailsText{
+    width:50%;
+}
+.lectureDetailsNavigate{
+    width:42%;
+    font-weight:bold;
+    padding-top:3px;
+    font-size:14px;
+}

@@ -4,8 +4,12 @@
     padding-bottom: 50px;
 }
 
+.homeheader {
+    position: relative;
+    height: 80px;
+}
+
 .swiper-slide {
-    margin-top: 20px;
     background-position: center;
     background-size: cover;
     width: 900px;
@@ -28,6 +32,8 @@
 .title {
     font-size: 30;
     font-weight: 800;
+    display: flex;
+    column-gap: 30px;
 }
 
 .tagline {

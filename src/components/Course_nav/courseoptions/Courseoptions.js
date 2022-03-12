@@ -4,7 +4,7 @@ const Courseoptions = ({courseName,professorName,classDetails,classDate,courseSt
         
             <div className="nav-container2">
                 <div className="coursename">
-                    <img className="imagestyle" src="/computer.png" />
+                    <img className="imagestyle" src="/computer.png" alt="CoursesImages" />
                     <h2 className="textstyle">{courseName}</h2>
                 </div>
                 <span className="textstyle3">{professorName}</span>
