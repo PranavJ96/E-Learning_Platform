@@ -1,0 +1,112 @@
+.align-Details{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    border: 1px solid #C4C4C4;
+    text-align: center; 
+    margin: 100px 300px;
+}
+
+.registrationHeading{
+    color: gray;
+    font-family: Roboto;
+}
+.label{
+    display: block;
+    font-size: larger;
+    color: gray;
+    text-align: left;
+    font-family: Roboto;
+}
+      
+.label-align{
+    display: flex;
+    gap: 2%;
+}
+
+.labelprops{
+    width: 40%;
+}
+
+.input{
+    border: 1px solid #C4C4C4;
+    text-align-last: auto;
+    height:25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    width: 250px;   
+}
+.marks-input{
+    border: 1px solid #C4C4C4;
+    text-align-last: auto;
+    height:25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    width: 70px;
+    text-align: center;
+}
+.inputprops{
+    width: 80%;
+    font-family: Roboto;
+    color: gray;
+}
+
+.inputprops-align{
+    display: flex;
+    margin: 10px 25px;
+}
+
+.radioinput{
+    font-family: Roboto;
+    color: gray;
+    font-size: large;
+    display: flex;
+    margin: 10px 15px;
+    text-align: right;
+}
+
+.radiobtnspacing{
+    margin: 0px 10px;   
+}
+.error{
+    display: block;
+    color: red;
+    width: fit-content;
+    height: 30px;
+    padding: 2px 0px 50px;
+    text-align: center;
+}
+    
+.success{
+    display: block;
+    color: green;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.savebtn{
+    background-color: #119da4 !important;
+    color: white !important;
+    font-size: 15px !important;
+    text-decoration: none !important;
+    text-transform:none!important;
+    border-radius: 16px !important;
+    width: 160px;
+    margin: 10px !important;
+    padding-left:35px!important;
+}
+
+.savebtn-align{
+    margin: 10px;
+    
+}
+
+.asterisk-align{
+    text-align: right;
+    font-family: Roboto;
+    color: gray;
+}

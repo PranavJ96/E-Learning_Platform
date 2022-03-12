@@ -1,0 +1,128 @@
+.align-CourseDetails{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    border: 1px solid #C4C4C4;
+    text-align: center; 
+    margin: 100px 225px;
+}
+
+.AddCourseHeading{
+    color: gray;
+    font-family: Roboto;
+}
+
+.label{
+    display: block;
+    font-size: larger;
+    color: gray;
+    text-align: left;
+    font-family: Roboto;
+    margin: 0px 60px;
+}
+      
+.label-align{
+    display: flex;
+    gap: 2%;
+}
+
+.labelprops{
+    width: 40%;
+}
+
+.input{
+    border: 1px solid #C4C4C4;
+    text-align-last: auto;
+    height:25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    width: 80%;   
+}
+
+.courseinput{
+    border: 1px solid #C4C4C4;
+    text-align-last: auto;
+    height:150px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+    width: 80%; 
+    margin: 10px;
+}
+.inputprops{
+    width: 60%;
+}
+.radiobtninput{
+    font-family: Roboto;
+    color: gray;
+    font-size: large;
+    display: flex;
+    margin: 10px 20px;
+}
+
+.radiobtnspacing{
+    margin: 0px 10px; 
+}
+
+.checkboxinput{
+    font-family: Roboto;
+    color: gray;
+    font-size: large;
+    display: flex;
+    margin: 10px 20px;
+    text-align: left;
+}
+
+.checkboxspacing{
+    margin: 0px 10px;  
+}
+.error{
+    display: block;
+    color: red;
+    width: fit-content;
+    height: 30px;
+    padding: 2px 0px 50px;
+    text-align: center;
+}
+    
+.success{
+    display: block;
+    color: green;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.addCoursebtn{
+    background-color: #119da4 !important;
+    color: white !important;
+    font-size: 15px !important;
+    text-decoration: none !important;
+    text-transform:none!important;
+    border-radius: 16px !important;
+    width: 160px;
+    margin: 10px !important;
+    padding-left:35px!important;
+}
+
+.savebtn-align{
+    margin: 10px;
+    
+}
+.attachfiles{
+    font-size: inherit;
+    color: gray;
+    transform: skew(-30deg, 25deg);
+    margin: -3px;
+    
+}
+
+.attachIcon-Space{
+    color: gray;
+    font-size: large;
+    font-family: Roboto;
+    text-align: left;
+    margin: 10px 40px;
+}

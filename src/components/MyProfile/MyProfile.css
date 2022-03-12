@@ -16,7 +16,7 @@
     color: #625f5f;
 }
 .MyProfileAccountContainer{
-    background:white;
+    background:#ffffffb8;
     color:gray;
     box-shadow: 3px 3px #bfafafbd;
     text-align:left;
@@ -27,7 +27,7 @@
     margin:10px 0px;
 }
 .MyProfileSettingsContainer{
-    background:white;
+    background:#ffffffb8;
     color:gray;
     text-align:left;
     height:534px;

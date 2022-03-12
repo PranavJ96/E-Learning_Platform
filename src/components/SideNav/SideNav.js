@@ -74,10 +74,10 @@ else{
           <NavLink value="Course" path="/course" isActive={courseActive} isSubmit="0" />
         </div>
         <div class="navButtons">
-          <NavLink value="Student" path="/" isActive={studentActive} isSubmit="0" />
+          <NavLink value="Student" path="/student" isActive={studentActive} isSubmit="0" />
         </div>
         <div class="navButtons">
-          <NavLink value="Live Class" path="/" isActive={liveClassActive} isSubmit="0" />
+          <NavLink value="Live Class" path="/liveclass" isActive={liveClassActive} isSubmit="0" />
         </div>
         <div class="navButtons">
           <NavLink value="Chat" path="/chat" isActive={chatActive} isSubmit="0" />

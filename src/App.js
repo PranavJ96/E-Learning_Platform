@@ -11,16 +11,12 @@ import Form from "./components/SignIn/SignIn";
 import Coursedetails from "./components/Coursedetails/Coursedetails"
 import MyProfile from "./components/MyProfile/MyProfile"
 import AssignmentUpload from "./components/Coursedetails/AssignmentUpload/AssignmentUpload";
+import LiveClass from "./components/LiveClass/LiveClass";
+import Home from "./components/Home/Home";
+import Student from "./components/Student/Student";
+import StudentRegistration from "./components/StudentRegistration/StudentRegistration";
+import AddCourse from "./components/AddCourse/AddCourse";
 export default function App() {
-  // function requireAuth() {
-  //   let userType = localStorage.getItem("userType");
-  //   console.log(userType);
-  //   if (userType !== "1" || userType !== "2") {
-  //     return false;
-  //   } else {
-  //     return true;
-  //   }
-  // }
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }} className="App">
       <BrowserRouter>
@@ -29,8 +25,14 @@ export default function App() {
           <Route exact path='/dashboard' element={<PrivateRoute/>}>
             <Route exact path='/dashboard' element={<Dashboard/>}/>
           </Route>
+          <Route exact path='/liveclass' element={<PrivateRoute/>}>
+            <Route exact path='/liveclass' element={<LiveClass/>}/>
+          </Route>
           <Route exact path='/profile' element={<PrivateRoute/>}>
           <Route path="/profile" exact element={<MyProfile />} />
+          </Route>
+          <Route exact path='/student' element={<PrivateRoute/>}>
+          <Route path="/student" exact element={<Student />} />
           </Route>
           <Route exact path='/schedule' element={<PrivateRoute/>}>
           <Route path="/schedule" exact element={<Schedule />} />
@@ -43,6 +45,9 @@ export default function App() {
           </Route>
           <Route path="/login" exact element={<Form />} />
           <Route path="/coursedetails" exact element={<Coursedetails />} />
+          <Route path="/home" exact element={<Home />} />
+          <Route path="/signup" exact element={<StudentRegistration />} />
+          <Route path="/addcourse" exact element={<AddCourse />} />
         </Routes>
       </Fragment>
       </BrowserRouter>

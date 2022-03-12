@@ -14,7 +14,6 @@
     margin-top:10px;
 }
 .ChatListContainer{
-    background:white;
     color:gray;
     border-radius: 15px 0px 0px 15px;
     border-right: 1px solid #80808026;
@@ -31,7 +30,6 @@
     
 }
 .ChatPersonDetials{
-    background:white;
     color:gray;
     text-align:left;
     height:40px;
@@ -42,7 +40,6 @@
 
 }
 .ChatDetailsContainer{
-    background:white;
     color:gray;
     text-align:left;
     height:444px;
@@ -52,7 +49,7 @@
     margin-top:-10px;
 }
 .chatContent{
-    background:white;
+    background:#ffffffb8;
     display:flex;
     margin-top:10px;
     border-radius:15px;
