@@ -9,18 +9,16 @@ import MyProfile from "./components/MyProfile/MyProfile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schedule from "./components/Schedule/Schedule";
 import Form from "./components/SignIn/SignIn";
+<<<<<<< HEAD
 import LiveClass from "./components/LiveClass/LiveClass";
 import Home from "./components/Home/Home";
+=======
+import Student from "./components/Student/Student";
+import StudentRegistration from "./components/StudentRegistration/StudentRegistration";
+import AddCourse from "./components/AddCourse/AddCourse";
+
+>>>>>>> 074ad112afd941c081ecbeaf5ce16908b1e24a90
 export default function App() {
-  // function requireAuth() {
-  //   let userType = localStorage.getItem("userType");
-  //   console.log(userType);
-  //   if (userType !== "1" || userType !== "2") {
-  //     return false;
-  //   } else {
-  //     return true;
-  //   }
-  // }
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }} className="App">
       <BrowserRouter>
@@ -35,6 +33,9 @@ export default function App() {
           <Route exact path='/profile' element={<PrivateRoute/>}>
           <Route path="/profile" exact element={<MyProfile />} />
           </Route>
+          <Route exact path='/student' element={<PrivateRoute/>}>
+          <Route path="/student" exact element={<Student />} />
+          </Route>
           <Route exact path='/schedule' element={<PrivateRoute/>}>
           <Route path="/schedule" exact element={<Schedule />} />
           </Route>
@@ -45,7 +46,12 @@ export default function App() {
           <Route path="/course" exact element={<Coursescreen />} />
           </Route>
           <Route path="/login" exact element={<Form />} />
+<<<<<<< HEAD
           <Route path="/home" exact element={<Home />} />
+=======
+          <Route path="/signup" exact element={<StudentRegistration />} />
+          <Route path="/addcourse" exact element={<AddCourse />} />
+>>>>>>> 074ad112afd941c081ecbeaf5ce16908b1e24a90
         </Routes>
       </Fragment>
       </BrowserRouter>
