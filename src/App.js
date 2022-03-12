@@ -9,16 +9,8 @@ import MyProfile from "./components/MyProfile/MyProfile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schedule from "./components/Schedule/Schedule";
 import Form from "./components/SignIn/SignIn";
+import Student from "./components/Student/Student";
 export default function App() {
-  // function requireAuth() {
-  //   let userType = localStorage.getItem("userType");
-  //   console.log(userType);
-  //   if (userType !== "1" || userType !== "2") {
-  //     return false;
-  //   } else {
-  //     return true;
-  //   }
-  // }
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }} className="App">
       <BrowserRouter>
@@ -29,6 +21,9 @@ export default function App() {
           </Route>
           <Route exact path='/profile' element={<PrivateRoute/>}>
           <Route path="/profile" exact element={<MyProfile />} />
+          </Route>
+          <Route exact path='/student' element={<PrivateRoute/>}>
+          <Route path="/student" exact element={<Student />} />
           </Route>
           <Route exact path='/schedule' element={<PrivateRoute/>}>
           <Route path="/schedule" exact element={<Schedule />} />

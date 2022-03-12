@@ -59,6 +59,7 @@
     border-radius: 50%;
   }
   .ChatDetailsNameItem{
+      background:white;
       margin-top:5px;
       cursor:pointer;
       display:flex;

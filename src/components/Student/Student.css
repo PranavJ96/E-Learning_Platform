@@ -1,0 +1,150 @@
+.container{
+    display:flex;
+    column-gap: 30px;
+    width:80%;
+    margin:auto;
+}
+.student-Header{
+    font-size: 35px;
+    font-weight:700;
+    text-align: left;
+    color: #625f5f;
+}
+.dashboard-components{
+    margin-top:10px;
+}
+
+.studentPersonDetials{
+    background:white;
+    color:gray;
+    text-align:left;
+    height:40px;
+    width: 400px;
+    border-radius:20px;
+    padding: 0 20px 20px 0px;
+    margin:10px 0px 10px 30px;
+
+}
+.studentContent{
+    background:#ffffffb8;
+    display:flex;
+    height:555px;
+    padding:10px;
+    margin-top:10px;
+    width:-webkit-fill-available;
+    border-radius:15px;
+    box-shadow: 3px 3px #bfafafbd;
+    flex-wrap:wrap;
+}
+.studentSearch{
+    width:35%;
+    position:relative;
+    border-right:3px solid #C4C4C4;
+}
+.studentDetails{
+    width:60%;
+    padding:20px;
+}
+.studentImgName{
+    display:flex;
+    width: 40%;
+    margin: auto;
+}
+.studentSearchDiv{
+    display:flex;
+    align-items: center;
+}
+.studentSearchName{
+    width:40%;
+    text-align-last: left;
+}
+.studentSearchInput{
+    width:50%;
+}
+.studentInputBox{
+    border: 1px solid #C4C4C4;
+    width:93%;
+    margin:10px 0px;
+    padding:0 0 0 10px;
+    text-align-last: auto;
+    height:25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+}
+.studentSelectBox{
+    border: 1px solid #C4C4C4;
+    width:100%;
+    margin:10px 0px;
+    padding:0 0 0 10px;
+    text-align-last: auto;
+    height:25px;
+    box-shadow: 0px 1px 1px 1px #C4C4C4;
+    border-radius:10px;
+}
+.main-content-student{
+    width:-webkit-fill-available;
+}
+select:invalid{
+    color: gray;
+}
+option{
+    color: black;
+}
+.StudentListItems{
+    margin-top:10px;
+    width:80%;
+    padding-bottom:5px;
+    margin-left:5%;
+    display:flex;
+    border-bottom: 1px solid #80808026;
+}
+.studentListImageDiv{
+    width:20%;
+}
+.studentImageList{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+.studentImageDetails{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+.studentDetailsName{
+    align-self: center;
+    padding-left:10px;
+    font-weight:500;
+}
+.studentlistName{
+    align-self: center;
+}
+.studentListOfStudents{
+    font-size:20px;
+    font-weight:500;
+    padding:20px 0px 10px 15px;
+    text-align: -webkit-left;
+}
+.studentHeader{
+    text-align: -webkit-left;
+    font-weight:500;
+    font-size:20px;
+}
+.studentBatches{
+    width:300px;
+    margin-top:10px;
+    border-radius:15px;
+    cursor:pointer;
+}
+.studentButton{
+  background-color: #119da4 !important;
+  color: white !important;
+  border:none;
+  padding:10px;
+  cursor:pointer;
+  margin-top:10px;
+  font-size: 14px !important;
+  text-decoration: none !important;
+  text-transform:none!important;
+  border-radius: 16px !important;
+}

@@ -62,7 +62,7 @@ const NavLink = ({value,path,isActive, isSubmit}) => {
             </div>
         );
     }
-    else{
+    else if(value === "Live Class"){
         return(
             <div>
                <Button className={isSubmit==="1" ? "submitButton":isActive==="1" ? "navActiveButton":"navButton"} href={`${path}`} startIcon={<LiveTv />}>
@@ -70,6 +70,14 @@ const NavLink = ({value,path,isActive, isSubmit}) => {
                 </Button>
             </div>
         );
+    }
+    else{ return(
+        <div>
+           <Button className="submitButton" href={`${path}`} >
+                {value}
+            </Button>
+        </div>
+    );
     }
 };
 export default NavLink;
