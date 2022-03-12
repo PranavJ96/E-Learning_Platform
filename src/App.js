@@ -9,15 +9,10 @@ import MyProfile from "./components/MyProfile/MyProfile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schedule from "./components/Schedule/Schedule";
 import Form from "./components/SignIn/SignIn";
-<<<<<<< HEAD
-import LiveClass from "./components/LiveClass/LiveClass";
-import Home from "./components/Home/Home";
-=======
 import Student from "./components/Student/Student";
 import StudentRegistration from "./components/StudentRegistration/StudentRegistration";
 import AddCourse from "./components/AddCourse/AddCourse";
 
->>>>>>> 074ad112afd941c081ecbeaf5ce16908b1e24a90
 export default function App() {
   return (
     <div style={{ backgroundImage: `url('/background.jpg')` }} className="App">
@@ -26,9 +21,6 @@ export default function App() {
         <Routes>
           <Route exact path='/dashboard' element={<PrivateRoute/>}>
             <Route exact path='/dashboard' element={<Dashboard/>}/>
-          </Route>
-          <Route exact path='/liveclass' element={<PrivateRoute/>}>
-            <Route exact path='/liveclass' element={<LiveClass/>}/>
           </Route>
           <Route exact path='/profile' element={<PrivateRoute/>}>
           <Route path="/profile" exact element={<MyProfile />} />
@@ -46,12 +38,11 @@ export default function App() {
           <Route path="/course" exact element={<Coursescreen />} />
           </Route>
           <Route path="/login" exact element={<Form />} />
-<<<<<<< HEAD
           <Route path="/home" exact element={<Home />} />
-=======
           <Route path="/signup" exact element={<StudentRegistration />} />
           <Route path="/addcourse" exact element={<AddCourse />} />
->>>>>>> 074ad112afd941c081ecbeaf5ce16908b1e24a90
+          <Route path="/liveclass" exact element={<LiveClass />} />
+          <Route path="/" exact element={<Home/>} />
         </Routes>
       </Fragment>
       </BrowserRouter>
@@ -60,4 +51,3 @@ export default function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
