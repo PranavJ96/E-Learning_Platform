@@ -1,11 +1,53 @@
 .Screen{
     display: flex;
     flex-direction: row;
+    padding-right: 0%;
+    width:80%;
+    margin:auto;
+    
    
 
 }    
 .heading{
     text-align: left;
-    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-bottom: 30px;
+
+}
+.coursedisplay{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 100%;
+   
     
+}
+.Coursecards{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.Headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Headline2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Headline_courseadd{
+    padding-top: 10px;
+    font-size:larger;
+}
+
+.imagestyle_Courseadd{
+    cursor: pointer;
+    padding-top: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 25;
 }

@@ -5,15 +5,17 @@ import ReactDOM from "react-dom";
 import Dashboard from "./components/Dashboard/Dashboard";
 import PrivateRoute from "./PrivateRoute";
 import Coursescreen from "./components/Course_nav/Coursescreen";
-import MyProfile from "./components/MyProfile/MyProfile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schedule from "./components/Schedule/Schedule";
 import Form from "./components/SignIn/SignIn";
+import Coursedetails from "./components/Coursedetails/Coursedetails"
+import MyProfile from "./components/MyProfile/MyProfile"
+import AssignmentUpload from "./components/Coursedetails/AssignmentUpload/AssignmentUpload";
+import LiveClass from "./components/LiveClass/LiveClass";
+import Home from "./components/Home/Home";
 import Student from "./components/Student/Student";
 import StudentRegistration from "./components/StudentRegistration/StudentRegistration";
 import AddCourse from "./components/AddCourse/AddCourse";
-import Home from "./components/Home/Home";
-import LiveClass from "./components/LiveClass/LiveClass";
 
 export default function App() {
   return (
@@ -40,6 +42,10 @@ export default function App() {
           <Route path="/course" exact element={<Coursescreen />} />
           </Route>
           <Route path="/login" exact element={<Form />} />
+          <Route path="/coursedetails" exact element={<Coursedetails />} />
+          <Route path="/home" exact element={<Home />} />
+          <Route path="/signup" exact element={<StudentRegistration />} />
+          <Route path="/addcourse" exact element={<AddCourse />} />
           <Route path="/home" exact element={<Home />} />
           <Route path="/signup" exact element={<StudentRegistration />} />
           <Route path="/addcourse" exact element={<AddCourse />} />
