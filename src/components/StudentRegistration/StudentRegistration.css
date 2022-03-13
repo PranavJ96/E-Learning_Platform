@@ -1,24 +1,46 @@
+.studentRegistrationHeader{
+    height: 80px;
+    width: 99%;
+    font-size: 30px;
+    font-weight: bold;
+    top: 46px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.title {
+    font-size: 30;
+    font-weight: 800;
+    display: flex;
+    column-gap: 30px;
+}
+
+.tagline {
+    font-size: 10;
+    font-weight: 100;
+}
+
 .align-Details{
-    width: 50%;
+    width: 55%;
     background-color: rgba(255, 255, 255, 0.644);
-    padding: 25px;
+    padding: 5px;
     box-shadow: 0px 1px 1px 1px #C4C4C4;
     border-radius:10px;
     border: 1px solid #C4C4C4;
     text-align: center; 
-    margin: 100px 300px;
+    margin: 80px 300px;
 }
 
 .registrationHeading{
-    color: gray;
-    font-family: Roboto;
+    color: black;
 }
 .label{
     display: block;
     font-size: larger;
-    color: gray;
+    color: black;
     text-align: left;
-    font-family: Roboto;
+    width: 100%;
 }
       
 .label-align{
@@ -32,7 +54,6 @@
 
 .input{
     border: 1px solid #C4C4C4;
-    text-align-last: auto;
     height:25px;
     box-shadow: 0px 1px 1px 1px #C4C4C4;
     border-radius:10px;
@@ -40,30 +61,33 @@
 }
 .marks-input{
     border: 1px solid #C4C4C4;
-    text-align-last: auto;
     height:25px;
     box-shadow: 0px 1px 1px 1px #C4C4C4;
     border-radius:10px;
-    width: 70px;
-    text-align: center;
+    width: 80%;
 }
 .inputprops{
-    width: 80%;
-    font-family: Roboto;
-    color: gray;
+    width: 60%;
+    color: black;
+}
+
+.inputprops-Marks{
+    color: black;
+    margin: 0px 0px 0px 38px;
+    text-align: left;
+    font-size: large;
 }
 
 .inputprops-align{
     display: flex;
-    margin: 10px 25px;
+    margin: 10px 0px;
 }
 
 .radioinput{
-    font-family: Roboto;
-    color: gray;
+    color: black;
     font-size: large;
     display: flex;
-    margin: 10px 15px;
+    margin: 10px 22px;
     text-align: right;
 }
 
@@ -107,6 +131,5 @@
 
 .asterisk-align{
     text-align: right;
-    font-family: Roboto;
-    color: gray;
+    color: black;
 }

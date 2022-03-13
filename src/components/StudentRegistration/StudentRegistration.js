@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import "./StudentRegistration.css";
+import Header from "../Header/Header";
 import Button from "@material-ui/core/Button";
 import Datepicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -92,7 +93,11 @@ export default function StudentRegistration(){
      };
 
      return(
-         <div className="align-Details">
+         <div>
+         <div className="studentRegistrationHeader">
+        <Header/>
+        </div>
+        <div className="align-Details">
         <div className="registrationHeading">
             <h1>Student Registration</h1>
         </div>
@@ -131,6 +136,7 @@ export default function StudentRegistration(){
                     value={HighestCourse} type="text"/>
                 </div>
             </div>
+            
             <div className="label-align">
                 <div class="labelprops">
                     <label required className="label">Area of baccalaureate*</label>
@@ -146,13 +152,15 @@ export default function StudentRegistration(){
                     <label className="label">Final marks in baccalaureate</label>
                 </div>
                 <div className="inputprops-align">
-                <div class="inputprops">
-                Marks Obtained<input onChange={handleFinalMarks} className="marks-input"
-                    value={FinalMarks} type="text"/>
+                <div class="inputprops-Marks">
+                <div>Marks Obtained</div>
+                <div><input onChange={handleFinalMarks} className="marks-input"
+                    value={FinalMarks} type="text"/></div>
                 </div>
-                <div class="inputprops">
-                Total<br></br><input onChange={handleFinalMarks} className="marks-input"
-                    value={FinalMarks} type="text"/>
+                <div class="inputprops-Marks">
+                <div>Total</div>
+                <div><input onChange={handleFinalMarks} className="marks-input"
+                    value={FinalMarks} type="text"/></div>
                 </div>
                 </div>
             </div>
@@ -191,6 +199,7 @@ export default function StudentRegistration(){
         <div className="messages">
                {RegistrationerrorMessage()}
                {RegistrationsuccessMessage()}
+        </div>
         </div>
         </div>
      );
