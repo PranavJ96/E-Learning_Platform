@@ -1,7 +1,8 @@
 import "./Header.css";
 
 const Header = () => {
-    return ( <div className = "Header" >
+    return ( 
+    <div className = "Header" >
         <div>
         <img className = "imagestyle2"
         src = "./logo1.png" />

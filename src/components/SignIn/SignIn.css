@@ -2,52 +2,64 @@
   background-color:green;
   }
 
-.AppNameProps{
-  text-align: left;
-  margin: -30px 300px;
-  font-size: x-large;
-  font-family: Roboto;
-  color:rgb(87, 82, 82) ;
+.signinHeader{
+    height: 80px;
+    width: 99%;
+    font-size: 30px;
+    font-weight: bold;
+    top: 46px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
 }
 
-.TagLineProps{
-  text-align: left;
-  margin: 0px 300px;
-  font-family: Roboto;
-  font-size:x-small;
-  color: rgb(87, 82, 82);
+.title {
+    font-size: 30;
+    font-weight: 800;
+    display: flex;
+    column-gap: 30px;
 }
-
+.tagline {
+    font-size: 10;
+    font-weight: 100;
+}
 .Section-headings{
-  font-family: Roboto;
   font-size: large;
   color: rgb(87, 82, 82);
 }
-  
-  .label{
+
+.signinlabel{
+    display: block;
+    font-size: larger;
+    color: gray;
+    padding: 10px 0px;
+    text-align: right;
+}
+
+.signuplabel{
   display: block;
   font-size: larger;
   color: gray;
   padding: 10px 0px;
   text-align: right;
-  font-family: Roboto;
-  }
+}
 
-  .label-align{
+.label-align{
     display: flex;
     gap: 5%;
-  }
+}
 
-  .labelprops{
+.labelprops{
     width: 40%;
-  }
+}
 
-  .section {
+.section {
     display:flex;
     justify-content:space-around;
-  }
+}
   
-  .input{
+.input{
     border: 1px solid #C4C4C4;
     margin:10px;
     text-align-last: auto;
@@ -55,13 +67,13 @@
     box-shadow: 0px 1px 1px 1px #C4C4C4;
     border-radius:10px;
     width: 250px;
-  }
+}
 
-  .inputprops{
+.inputprops{
     width: 60%;
-  }
+}
 
-  .btn{
+.btn{
     background-color: #119da4 !important;
     color: white !important;
     font-size: 15px !important;
@@ -71,8 +83,9 @@
     width: 130px;
     margin: 10px !important;
     
-  }
-  .btnSignIn{
+}
+
+.btnSignIn{
     background-color: #119da4 !important;
     color: white !important;
     font-size: 15px !important;
@@ -83,52 +96,54 @@
     width: 130px;
     margin: 10px !important;
     
-  }
-  .BtnText-align{
+}
+
+.BtnText-align{
     text-align:center;
-  }
-  .messages{
+}
+
+.messages{
   display: flex;
   justify-content:center;
-  }
+}
   
-  .error{
+.error{
   display: block;
   color: red;
   width: fit-content;
   height: 30px;
   padding: 2px 0px 50px;
   text-align: center;
-  }
+}
   
-  .success{
+.success{
   display: block;
   color: green;
   width: fit-content;
   height: 50px;
   padding: 5px;
   text-align: center;
-  }
+}
 
-  .section-align{
-    width: 40%;
+.section-align{
     background-color: rgba(255, 255, 255, 0.644);
-    padding: 25px;
+    padding: 10px;
     box-shadow: 0px 1px 1px 1px #C4C4C4;
     border-radius:10px;
     border: 1px solid #C4C4C4;
     text-align: center;
-  }
+    margin: 80px;
+    width: 100%;
+}
   
-  .forgotPassword{
+.forgotPassword{
     text-decoration:underline;
     color: gray;
     margin: 10px;
     justify-content: center;
-    font-family: Roboto;
-  }
+}
 
-  .Google-label-align{
+.Google-label-align{
     display: flex;
     gap: 10%;
     justify-content:center;
@@ -138,27 +153,26 @@
     background-color: rgba(255, 255, 255, 0.527);
     width: 250px;
     border: 1px solid #C4C4C4;
-  }
+}
 
-  .Google-label{
+.Google-label{
     display:block;
     font-size:large;
     color: gray;
     padding: 10px 0px;
-    font-family: Roboto;
-  }
+}
 
-  .ImageProps{
+.ImageProps{
   width: 25px;
   border-radius: 50%;
   margin: 5px;
-  }
+}
 
-  .vertical {
+.vertical {
     border-left: 10px solid gray;
-    height: 450px;
+    height: 415px;
     position:absolute;
     left: 50%;
     border-radius:10px;
-    margin: 60px 0px 20px;
+    margin: 85px 20px 0px;
 }
