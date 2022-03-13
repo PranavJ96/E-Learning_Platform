@@ -1,0 +1,52 @@
+.container2 {
+    height: 534px;
+    width: 537px;
+    background-color: white;
+    margin-top: 66px;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+    flex-direction: row;
+}
+
+.graph_progress {
+    height: 30%;
+    width: 45%;
+}
+
+.Classrank {
+    display: flex;
+    flex-direction: column;
+}
+
+.highest_marks {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+
+.Courselist_icon2 {
+    height: 60px;
+    width: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.highlow {
+    display: flex;
+    flex-direction: column;
+}
+
+.Marks_subject {
+    display: flex;
+    flex-direction: row;
+}
+
+.Ranks_image {
+    display: flex;
+    width: 480px;
+    height: 320px;
+    margin-top: -350px;
+    padding-left: 50px;
+}

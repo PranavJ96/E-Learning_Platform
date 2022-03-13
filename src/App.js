@@ -52,7 +52,6 @@ export default function App() {
           <Route path="/home" exact element={<Home />} />
           <Route path="/login" exact element={<Form />} />
           <Route path="/signup" exact element={<StudentRegistration />} />
-          <Route path="/liveclass" exact element={<LiveClass />} />
           <Route path="/" exact element={<Home/>} />
         </Routes>
       </Fragment>

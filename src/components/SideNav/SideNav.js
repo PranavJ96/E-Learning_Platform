@@ -17,9 +17,6 @@ if(userType==="1"){
     else if(pageName==="course"){
       courseActive = "1";
     }
-    else if(pageName==="student"){
-      studentActive = "1";
-    }
     else if(pageName==="liveClass"){
       liveClassActive = "1";
     }

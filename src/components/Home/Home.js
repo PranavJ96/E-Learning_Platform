@@ -20,7 +20,7 @@ const Home = () => {
 
         <container className="Swiper">
             <div className="homeheader">
-                <Header />
+                <Header isRequired={true} />
             </div>
 
 
@@ -31,6 +31,7 @@ const Home = () => {
                 centeredSlides={true}
                 slidesPerView={"auto"}
                 spaceBetween={0}
+                loop={true}
                 coverflowEffect={{
                     rotate: 50,
                     stretch: 0,

@@ -101,7 +101,9 @@ import Header from "../Header/Header";
          if(FirstName === '' || EmailID === '' || Password === '' || ConfirmPassword === '')
          {
             setAccountError(true);
+            window.location.href='/signUp';
          } else {
+            window.location.href='/signUp';
             setAccountCreation(true);
             setAccountError(false);
          }
@@ -135,7 +137,7 @@ import Header from "../Header/Header";
       return(
          <div>
          <div className="signinHeader">
-            <Header/>
+            <Header isRequired={false} />
          </div>
          <div class="vertical"></div>
          <div className="section">

@@ -3,6 +3,7 @@ import SideNav from "../SideNav/SideNav";
 import ChatList from "./ChatList/ChatList";
 import ChatDetails from "./ChatDetails/ChatDetails";
 import ChatDetailsName from "./ChatDetailsName/ChatDetailsName";
+
 function Chat() {
   return (
     <div class="container">
