@@ -39,6 +39,7 @@ import Header from "../Header/Header";
                else{
                   console.log(response.data[0].ID)
                   localStorage.setItem('userType', response.data[0].UserType)
+                  localStorage.setItem('userName', response.data[0].Name)
                   setError(false);
                   window.location = 'http://localhost:3000/dashboard';
                }
@@ -100,7 +101,9 @@ import Header from "../Header/Header";
          if(FirstName === '' || EmailID === '' || Password === '' || ConfirmPassword === '')
          {
             setAccountError(true);
+            window.location.href='/signUp';
          } else {
+            window.location.href='/signUp';
             setAccountCreation(true);
             setAccountError(false);
          }
@@ -134,7 +137,7 @@ import Header from "../Header/Header";
       return(
          <div>
          <div className="signinHeader">
-            <Header/>
+            <Header isRequired={false} />
          </div>
          <div class="vertical"></div>
          <div className="section">

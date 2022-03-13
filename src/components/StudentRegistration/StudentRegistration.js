@@ -59,8 +59,10 @@ export default function StudentRegistration(){
         e.preventDefault();
         if(BirthDate === '' || Gender === '' || HighestCourse === '' || CourseArea === '' || LearningArea === '' || Options === '')
         {
+            window.location.href='/login';
             setSaveError(true);
         } else {
+            window.location.href='/login';
             setBtnSave(true);
             setSaveError(false);
         }
@@ -95,7 +97,7 @@ export default function StudentRegistration(){
      return(
          <div>
          <div className="studentRegistrationHeader">
-        <Header/>
+        <Header isRequired={false}/>
         </div>
         <div className="align-Details">
         <div className="registrationHeading">

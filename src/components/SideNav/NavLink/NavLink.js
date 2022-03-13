@@ -8,6 +8,10 @@ import AccountBox from '@material-ui/icons/AccountBox';
 import Person from '@material-ui/icons/Person';
 import LiveTv from '@material-ui/icons/LiveTv';
 const NavLink = ({value,path,isActive, isSubmit}) => {
+    function Logout(){
+        localStorage.removeItem('userType');
+        localStorage.removeItem('userName');
+    }
     if(value === "Dashboard"){
         return(
         <div>
@@ -73,7 +77,7 @@ const NavLink = ({value,path,isActive, isSubmit}) => {
     }
     else{ return(
         <div>
-           <Button className="submitButton" href={`${path}`} >
+           <Button className="submitButton" onClick={Logout} href={`${path}`} >
                 {value}
             </Button>
         </div>

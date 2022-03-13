@@ -3,8 +3,8 @@ import "./AddCourse.css";
 import Button from "@material-ui/core/Button";
 import Datepicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Axios from "axios";
 import AttachFile from "@material-ui/icons/AttachFile";
-import Header from "../Header/Header";
 //import FileUpload from "react-material-file-upload"
                 /*
                 <FileUpload value={CourseIcon} onChange={handleAttachments} />AttachFile
@@ -22,13 +22,10 @@ export default function AddCourse() {
     const [StartDate, setStartDate] = React.useState(new Date());
     const [Options, setOptions] = React.useState(" ");
 
-
    //States for checking errors
     const [BtnAddCourse, setBtnAddCourse] = useState(false);
     const [AddCourseerror, setAddCourseerror] = useState(false);
 
-
-    
     const handleCourseName = (e) => {
         setCourseName(e.target.value);
         setBtnAddCourse(false);
@@ -70,6 +67,14 @@ export default function AddCourse() {
         {
             setAddCourseerror(true);
         } else {
+            Axios.post('http://localhost:5000/api/addcourse',{Name:CourseName,ClassName:ClassName,CourseDetails:CourseDetails,CourseBy:localStorage.getItem('userName')}).then((response)=>{
+                console.log(response)
+               if(response.data.message){
+               }
+               else{
+                  window.location = 'http://localhost:3000/course';
+               }
+            });
             setBtnAddCourse(true);
             setAddCourseerror(false);
         }
@@ -103,9 +108,6 @@ export default function AddCourse() {
 
      return(
         <div>
-        <div className="addCourseHeader">
-       <Header/>
-       </div>
         <div className="align-CourseDetails">
         <div className="AddCourseHeading">
             <h1>Add a new Course</h1>

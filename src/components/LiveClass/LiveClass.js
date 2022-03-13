@@ -1,7 +1,6 @@
 import React from "react";
 import './LiveClass.css';
 import SideNav from "../SideNav/SideNav";
-import ChatDetailsName from "../Chat/ChatDetailsName/ChatDetailsName";
 import EmojiEmotions from '@material-ui/icons/EmojiEmotions';
 import AttachFile from '@material-ui/icons/AttachFile';
 import Send from '@material-ui/icons/Send';
@@ -14,7 +13,7 @@ const LiveClass = () => {
     return (
         <div>
             <div className="sideNav1">
-                <SideNav />
+                <SideNav  pageName="liveClass"/>
                 <div className="title1">
                     <div className="liveclasstitle">Live Class</div>
 

@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schedule from "./components/Schedule/Schedule";
 import Form from "./components/SignIn/SignIn";
 import Coursedetails from "./components/Coursedetails/Coursedetails"
-import MyProfile from "./components/MyProfile/MyProfile"
+import MyProfile from "./components/MyProfile/MyProfile";
 import LiveClass from "./components/LiveClass/LiveClass";
 import Home from "./components/Home/Home";
 import Student from "./components/Student/Student";
@@ -40,12 +40,18 @@ export default function App() {
           <Route exact path='/course' element={<PrivateRoute/>}>
           <Route path="/course" exact element={<Coursescreen />} />
           </Route>
-          <Route path="/login" exact element={<Form />} />
+          <Route exact path='/coursedetails' element={<PrivateRoute/>}>
           <Route path="/coursedetails" exact element={<Coursedetails />} />
-          <Route path="/home" exact element={<Home/>} />
-          <Route path="/signup" exact element={<StudentRegistration />} />
+          </Route>
+          <Route exact path='/addcourse' element={<PrivateRoute/>}>
           <Route path="/addcourse" exact element={<AddCourse />} />
+          </Route>
+          <Route exact path='/liveclass' element={<PrivateRoute/>}>
           <Route path="/liveclass" exact element={<LiveClass />} />
+          </Route>
+          <Route path="/home" exact element={<Home />} />
+          <Route path="/login" exact element={<Form />} />
+          <Route path="/signup" exact element={<StudentRegistration />} />
           <Route path="/" exact element={<Home/>} />
         </Routes>
       </Fragment>

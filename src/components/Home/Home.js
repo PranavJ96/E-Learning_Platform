@@ -20,7 +20,7 @@ const Home = () => {
 
         <container className="Swiper">
             <div className="homeheader">
-                <Header />
+                <Header isRequired={true} />
             </div>
 
 

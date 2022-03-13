@@ -16,6 +16,7 @@
 .imagestyle2 {
     max-height: 80px;
     max-width: 80px;
+    cursor:pointer;
     /* position: absolute; */
     padding-top: 5px;
 }
@@ -36,15 +37,15 @@
 
 .button1 {
     /* position: absolute; */
-    padding-top: 10px;
-    padding-left: 10px;
-    height: 35px;
-    width: 120px;
-    background-color: #119DA4;
-    color: white;
-    border-radius: 10px;
-    font-size: 15px;
-    box-shadow: 4px 4px 5px;
+    padding: 10px!important;
+    cursor:pointer;
+    height: 40px!important;
+    width: 150px!important;
+    background-color: #119DA4!important;
+    color: white!important;
+    border-radius: 10px!important;
+    font-size: 15px!important;
+    box-shadow: 4px 4px 5px!important;
 }
 
 .Button {

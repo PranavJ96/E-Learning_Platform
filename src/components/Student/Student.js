@@ -22,7 +22,7 @@ function Student() {
   return (
     <div class="container">
       <div class="sideNav">
-        <SideNav pageName="Chat" />
+        <SideNav pageName="student" />
       </div>
       <div class="main-content-student">
         <div class="student-Header">Student</div>
