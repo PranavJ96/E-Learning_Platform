@@ -16,6 +16,14 @@
     padding-bottom: 30px;
 }
 
+.VideoIcon {
+    color: red;
+}
+
+.ShareIcon {
+    color: blue
+}
+
 .liveclasstitle2 {
     font-size: 24px;
     font-weight: 600;
@@ -41,8 +49,8 @@
 .background {
     flex-direction: column;
     height: 350px;
-    width: 500px;
-    background-color: white;
+    width: 520px;
+    background-color: #dcf1ee;
     border-radius: 10px;
 }
 
@@ -81,9 +89,9 @@
 
 .background2 {
     margin-left: 48px;
-    height: 50px;
+    height: 30px;
     width: 400px;
-    background-color: white;
+    background-color: #dbf0ee;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -91,23 +99,27 @@
     border-radius: 10px;
 }
 
-.record {
-    height: 40px;
-    width: 40px;
-    padding-top: 10px;
+.mic {
+    margin-top: 7px;
 }
 
 .share {
-    height: 50px;
-    width: 50px;
-    padding-top: 5px;
+    margin-top: 7px;
+}
+
+.video {
+    margin-top: 7px;
+}
+
+.record {
+    margin-top: 7px;
 }
 
 .LiveChat {
-    background-color: white;
+    background-color: #dbf0ee;
     height: 599px;
-    width: 210px;
-    margin-left: 530px;
+    width: 280px;
+    margin-left: 550px;
     margin-top: -500px;
     border-radius: 20px;
     display: flex;

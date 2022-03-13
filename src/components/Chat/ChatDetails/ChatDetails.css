@@ -1,69 +1,82 @@
-.chatDetailsLastMessageDate{
-    font-size:12px;
-    font-weight:bold;
+.chatDetailsLastMessageDate {
+    font-size: 12px;
+    font-weight: bold;
     text-align: -webkit-center;
 }
-.profilePicInChat{
-    height:25px;
-    width:25px;
-    margin-top:30px;
-    border-radius:50%;
+
+.profilePicInChat {
+    height: 25px;
+    width: 25px;
+    margin-top: 30px;
+    border-radius: 50%;
 }
-.chatDetailsChatText{
-    display:flex;
+
+.chatDetailsChatText {
+    display: flex;
 }
-.chatDetailsLeftChat{
-    background:#119da4;
-    color:white;
-    padding:7px 10px;
-    border-radius:15px 15px 15px 0px;
-    width:80%;
+
+.chatDetailsLeftChat {
+    background: #119da4;
+    color: white;
+    padding: 7px 10px;
+    margin-left: 4px;
+    border-radius: 15px 15px 15px 0px;
+    width: 80%;
 }
-.chatDetailsRightChat{
-    background:#1F78B4;
-    color:white;
-    padding:7px 10px;   
+
+.chatDetailsRightChat {
+    background: #1F78B4;
+    color: white;
+    margin-right: 4px;
+    padding: 7px 10px;
     text-align: -webkit-left;
-    border-radius:15px 15px 0px 15px;
-    width:80%;
+    border-radius: 15px 15px 0px 15px;
+    width: 80%;
 }
-.ChatDetailsTimeOfChat{
-    font-size:12px;
+
+.ChatDetailsTimeOfChat {
+    font-size: 12px;
 }
-.chatDetailsSingleChatLeft{
-    margin-top:10px;
-    display:flex;
+
+.chatDetailsSingleChatLeft {
+    margin-top: 10px;
+    display: flex;
 }
-.chatDetailsSingleChatRight{
-    margin-top:10px;
-    display:flex;
+
+.chatDetailsSingleChatRight {
+    margin-top: 10px;
+    display: flex;
     text-align: -webkit-right!important;
-
-}
-.chatDetailsAddChat{
-    display:flex;
-}
-.chatDetailsInput{
-    border:none;
-    width:90%;
-}
-.classDetailsInput{
-    width:70%;
-    margin-left:15px;
 }
 
-.chatDetailsAddChat{
-    border-radius:15px;
+.chatDetailsAddChat {
+    display: flex;
 }
-.chatDetailSendButton{
-    margin-left:15px;
-    cursor:pointer;
+
+.chatDetailsInput {
+    border: none;
+    width: 90%;
 }
-.chatScreenSendMessageSection{
-    background:white;
-    padding:10px;
-    margin-top:50px;
+
+.classDetailsInput {
+    width: 70%;
+    margin-left: 15px;
+}
+
+.chatDetailsAddChat {
+    border-radius: 15px;
+}
+
+.chatDetailSendButton {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.chatScreenSendMessageSection {
+    background: white;
+    padding: 10px;
+    margin-top: 50px;
     box-shadow: 3px 3px 3px #80808026;
     border: 1px solid #80808026;
-    border-radius:20px;
+    border-radius: 20px;
 }
