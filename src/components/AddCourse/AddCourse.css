@@ -1,23 +1,12 @@
-.addCourseHeader{
-    height: 80px;
-    width: 99%;
-    font-size: 30px;
-    font-weight: bold;
-    top: 46px;
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-}
 .align-CourseDetails{
     width: 60%;
     background-color: rgba(255, 255, 255, 0.644);
-    padding: 25px;
+    padding: 0px;
     box-shadow: 0px 1px 1px 1px #C4C4C4;
     border-radius:10px;
     border: 1px solid #C4C4C4;
     text-align: center; 
-    margin: 100px 225px;
+    margin: 30px 225px;
 }
 
 .AddCourseHeading{

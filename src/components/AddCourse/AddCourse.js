@@ -4,7 +4,6 @@ import Button from "@material-ui/core/Button";
 import Datepicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import AttachFile from "@material-ui/icons/AttachFile";
-import Header from "../Header/Header";
 //import FileUpload from "react-material-file-upload"
                 /*
                 <FileUpload value={CourseIcon} onChange={handleAttachments} />AttachFile
@@ -103,9 +102,6 @@ export default function AddCourse() {
 
      return(
         <div>
-        <div className="addCourseHeader">
-       <Header/>
-       </div>
         <div className="align-CourseDetails">
         <div className="AddCourseHeading">
             <h1>Add a new Course</h1>
