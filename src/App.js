@@ -9,8 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Schedule from "./components/Schedule/Schedule";
 import Form from "./components/SignIn/SignIn";
 import Coursedetails from "./components/Coursedetails/Coursedetails"
-import MyProfile from "./components/MyProfile/MyProfile"
-import AssignmentUpload from "./components/Coursedetails/AssignmentUpload/AssignmentUpload";
+import MyProfile from "./components/MyProfile/MyProfile";
 import LiveClass from "./components/LiveClass/LiveClass";
 import Home from "./components/Home/Home";
 import Student from "./components/Student/Student";
@@ -48,7 +47,6 @@ export default function App() {
           <Route path="/addcourse" exact element={<AddCourse />} />
           <Route path="/home" exact element={<Home />} />
           <Route path="/signup" exact element={<StudentRegistration />} />
-          <Route path="/addcourse" exact element={<AddCourse />} />
           <Route path="/liveclass" exact element={<LiveClass />} />
           <Route path="/" exact element={<Home/>} />
         </Routes>
