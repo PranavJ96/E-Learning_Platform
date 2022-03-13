@@ -1,10 +1,14 @@
 import "./Header.css";
+import Button from '@material-ui/core/Button';
 
 const Header = () => {
-    return ( <div className = "Header" >
+    function home(){
+        window.location = 'http://localhost:3000/';
+    }
+    return ( 
+    <div className = "Header" >
         <div>
-        <img className = "imagestyle2"
-        src = "./logo1.png" />
+        <img onClick={home} className = "imagestyle2" alt="Logo" src = "./logo1.png" />
         </div>
 
         <div className = "Text" >
@@ -15,8 +19,8 @@ const Header = () => {
         Begin your learning journey from here </div> 
         </div>
         <div className = "Button" >
-        <div className = "button1" >
-        SignIn / SignUp </div> </div> </div>
+        <Button href="/login" className = "button1" >
+        SignIn / SignUp </Button> </div> </div>
 
     );
 };

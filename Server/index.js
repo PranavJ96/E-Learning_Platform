@@ -12,7 +12,7 @@ const db = mysql.createPool({
     connectionLimit: 10,
     host: 'localhost',
     user: 'root',
-    password: 'password',
+    password: '',
     database: 'eshikshan',
 })
 
@@ -34,7 +34,40 @@ app.post('/api/login', (req, res) => {
         })
     })
 })
-
+app.get('/api/courses', (req, res) => {
+    db.getConnection((err, connection) => {
+        if (err) throw err;
+        connection.query("SELECT * FROM COURSE", (err, result) => {
+            connection.release();
+            if (err) {
+                res.send({ err: err });
+            }
+            if (result.length > 0) {
+                res.send(result);
+            } else {
+                res.send({ message: "Error faced while getting courses" });
+            }
+        })
+    })
+})
+app.post('/api/addcourse', (req, res) => {
+    const Name = req.body.Name;
+    const ClassName = req.body.ClassName;
+    const CourseDetails = req.body.CourseDetails;
+    const CourseBy = req.body.CourseBy;
+    db.getConnection((err, connection) => {
+        if (err) throw err;
+        connection.query("INSERT INTO Course ( Name, ClassName,CourseDetails, CourseBy) VALUES (?,?,?,?);", [Name, ClassName,CourseDetails,CourseBy], (err, result) => {
+            connection.release();
+            if (err) {
+                res.send({ err: err });
+            }
+            else {
+                res.send(result);
+            }
+        })
+    })
+})
 
 
 

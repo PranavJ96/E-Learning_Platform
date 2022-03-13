@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import "./SignIn.css";
 import Axios from "axios";
 import Button from "@material-ui/core/Button";
+import Header from "../Header/Header";
 
  
   export default function Form() {
@@ -38,6 +39,7 @@ import Button from "@material-ui/core/Button";
                else{
                   console.log(response.data[0].ID)
                   localStorage.setItem('userType', response.data[0].UserType)
+                  localStorage.setItem('userName', response.data[0].Name)
                   setError(false);
                   window.location = 'http://localhost:3000/dashboard';
                }
@@ -132,13 +134,10 @@ import Button from "@material-ui/core/Button";
 
       return(
          <div>
-         <div className="AppNameProps">
-         <h1>E-Shikshan</h1>
+         <div className="signinHeader">
+            <Header/>
          </div>
          <div class="vertical"></div>
-         <div className="TagLineProps">
-            <h2>Begin your Learning Journey with us</h2>
-         </div>
          <div className="section">
          <div className="section-align">
             <div className="Section-headings">
@@ -147,7 +146,7 @@ import Button from "@material-ui/core/Button";
                <form>
                   <div className="label-align">
                   <div class="labelprops">
-                  <label className="label">UserName</label>
+                  <label className="signinlabel">UserName</label>
                   </div>
                   <div class="inputprops">
                   <input onChange={handleUsername} className="input"
@@ -156,7 +155,7 @@ import Button from "@material-ui/core/Button";
                   </div>
                   <div className="label-align">
                   <div class="labelprops">  
-                  <label className="label">Password</label>
+                  <label className="signinlabel">Password</label>
                   </div>
                   <div class="inputprops">
                   <input onChange={handlePass} className="input"
@@ -186,7 +185,7 @@ import Button from "@material-ui/core/Button";
                <form>
                   <div class="label-align">
                   <div class="labelprops"> 
-                  <label className="label">FirstName</label>
+                  <label className="signuplabel">FirstName</label>
                   </div>
                   <div class="inputprops">
                   <input onChange={handleFirstName} className="input"
@@ -195,7 +194,7 @@ import Button from "@material-ui/core/Button";
                   </div>
                   <div class="label-align">
                   <div class="labelprops"> 
-                  <label className="label">LastName</label>
+                  <label className="signuplabel">LastName</label>
                   </div>
                   <div class="inputprops">
                   <input onChange={handleLastName} className="input"
@@ -204,7 +203,7 @@ import Button from "@material-ui/core/Button";
                   </div>
                   <div class="label-align">
                   <div class="labelprops"> 
-                  <label className="label">Email ID</label>
+                  <label className="signuplabel">Email ID</label>
                   </div>
                   <div class="inputprops">
                   <input onChange={handleEmailID} className="input"
@@ -213,7 +212,7 @@ import Button from "@material-ui/core/Button";
                   </div>
                   <div class="label-align">
                   <div class="labelprops"> 
-                  <label className="label">Password</label>
+                  <label className="signuplabel">Password</label>
                   </div>
                   <div class="inputprops">
                   <input onChange={handlePassword} className="input"
@@ -222,7 +221,7 @@ import Button from "@material-ui/core/Button";
                   </div>
                   <div class="label-align">
                   <div class="labelprops">
-                  <label className="label">Confirm Password</label>
+                  <label className="signuplabel">Confirm Password</label>
                   </div>
                   <div class="inputprops">
                   <input onChange={handleConfirmPassword} className="input"

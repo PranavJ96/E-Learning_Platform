@@ -1,10 +1,20 @@
 import "./Coursescreen.css";
 import Courseoptions from "./courseoptions/Courseoptions";
 import SideNav from "../SideNav/SideNav";
+import Axios from "axios";
+import React,{useState} from "react";
 const Coursescreen = () => {
+    const [data,setdata] = useState([]);
     function addCourse(){
         window.location.href='/addcourse';
     };
+    Axios.get('http://localhost:5000/api/courses').then((response)=>{
+               if(response.data.message){
+               }
+               else{
+                   setdata(response.data);
+               }
+            });
     return (
         <div className="Screen">
             <div className="SideNavstyle" >
@@ -19,8 +29,7 @@ const Coursescreen = () => {
             </div >
            </div>
             <div className="Coursecards">
-            <Courseoptions courseName = "Java Programming" professorName = "Mr Java Developer" classDetails = "k1501" classDate = "August-December" courseStatus = "Ongoing" />
-            <Courseoptions courseName = "Discrete Mathematics" professorName = "Hackerman" classDetails = "k1501" classDate = "August-December" courseStatus = "Ongoing" />
+            {data.map((object, i) => <Courseoptions courseName = {object.Name} professorName = {object.CourseBy} classDetails = {object.ClassName} classDate = "August-December" courseStatus = "Ongoing" />)}
              </div>
              </div>
             

@@ -40,12 +40,17 @@ export default function App() {
           <Route exact path='/course' element={<PrivateRoute/>}>
           <Route path="/course" exact element={<Coursescreen />} />
           </Route>
-          <Route path="/login" exact element={<Form />} />
+          <Route exact path='/coursedetails' element={<PrivateRoute/>}>
           <Route path="/coursedetails" exact element={<Coursedetails />} />
-          <Route path="/home" exact element={<Home />} />
-          <Route path="/signup" exact element={<StudentRegistration />} />
+          </Route>
+          <Route exact path='/addcourse' element={<PrivateRoute/>}>
           <Route path="/addcourse" exact element={<AddCourse />} />
+          </Route>
+          <Route exact path='/liveclass' element={<PrivateRoute/>}>
+          <Route path="/liveclass" exact element={<LiveClass />} />
+          </Route>
           <Route path="/home" exact element={<Home />} />
+          <Route path="/login" exact element={<Form />} />
           <Route path="/signup" exact element={<StudentRegistration />} />
           <Route path="/liveclass" exact element={<LiveClass />} />
           <Route path="/" exact element={<Home/>} />

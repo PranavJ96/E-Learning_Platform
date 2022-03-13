@@ -1,3 +1,14 @@
+.addCourseHeader{
+    height: 80px;
+    width: 94%;
+    font-size: 30px;
+    font-weight: bold;
+    top: 46px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
 .align-CourseDetails{
     width: 60%;
     background-color: rgba(255, 255, 255, 0.644);
@@ -10,16 +21,14 @@
 }
 
 .AddCourseHeading{
-    color: gray;
-    font-family: Roboto;
+    color: black;
 }
 
 .label{
     display: block;
     font-size: larger;
-    color: gray;
+    color: black;
     text-align: left;
-    font-family: Roboto;
     margin: 0px 60px;
 }
       
@@ -54,20 +63,18 @@
     width: 60%;
 }
 .radiobtninput{
-    font-family: Roboto;
-    color: gray;
+    color: black;
     font-size: large;
     display: flex;
     margin: 10px 20px;
 }
 
 .radiobtnspacing{
-    margin: 0px 10px; 
+    margin: 0px 15px; 
 }
 
 .checkboxinput{
-    font-family: Roboto;
-    color: gray;
+    color: black;
     font-size: large;
     display: flex;
     margin: 10px 20px;
@@ -75,7 +82,7 @@
 }
 
 .checkboxspacing{
-    margin: 0px 10px;  
+    margin: 0px 15px;  
 }
 .error{
     display: block;
@@ -113,16 +120,15 @@
 }
 .attachfiles{
     font-size: inherit;
-    color: gray;
+    color: black;
     transform: skew(-30deg, 25deg);
     margin: -3px;
     
 }
 
 .attachIcon-Space{
-    color: gray;
+    color: black;
     font-size: large;
-    font-family: Roboto;
     text-align: left;
-    margin: 10px 40px;
+    margin: 10px 50px;
 }
