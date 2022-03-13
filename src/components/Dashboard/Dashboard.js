@@ -59,7 +59,7 @@ else{
                        <ClassProgress CourseName = "Discrete Mathematics" ClassName="K1501" Duration="December-April" path="/"/>
               </div>
               <div onClick={() =>studentProgressSelection(2)}>
-                       <ClassProgress CourseName = "Assignment for Unit 1" ClassName="K1501" Duration="December-April" path="/"/>
+                       <ClassProgress CourseName = "Java Programming" ClassName="K1501" Duration="December-April" path="/"/>
               </div>
               <div onClick={() =>studentProgressSelection(3)}>
                        <ClassProgress CourseName = "Assignment for Unit 1" ClassName="K1501" Duration="December-April" path="/"/>

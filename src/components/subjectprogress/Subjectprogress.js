@@ -1,4 +1,5 @@
 import './Subjectprogress.css';
+import { Bar } from 'react-chartjs-2';
 
  const subjectprogress = ({ PageNumber }) => {
      if(PageNumber === 1){
@@ -23,6 +24,7 @@ import './Subjectprogress.css';
             
             <div className='Marks_subject'>
                 <img className="Courselist_icon2" src="./computer.png"></img>
+               
    
                 <div className='Classrank'>
                 <div className='highest_marks'>Lowest Marks</div>
