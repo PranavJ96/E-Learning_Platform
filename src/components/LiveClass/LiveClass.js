@@ -5,6 +5,11 @@ import ChatDetailsName from "../Chat/ChatDetailsName/ChatDetailsName";
 import EmojiEmotions from '@material-ui/icons/EmojiEmotions';
 import AttachFile from '@material-ui/icons/AttachFile';
 import Send from '@material-ui/icons/Send';
+import MicIcon from '@material-ui/icons/Mic';
+import ScreenShareIcon from '@material-ui/icons/ScreenShare';
+import VideoCallIcon from '@material-ui/icons/VideoCall';
+import AlbumOutlinedIcon from '@material-ui/icons/AlbumOutlined';
+
 const LiveClass = () => {
     return (
         <div>
@@ -28,10 +33,20 @@ const LiveClass = () => {
                    
                         
                     <div className="background2">
-                        <img className="record" src="./video.png"></img>
-                        <img className="record" src="./audio.png"></img>
-                        <img className="share" src="./share.png"></img>
-                        <img className="record" src="./record1.png"></img>
+                        <div className="video">
+                            <VideoCallIcon className="VideoIcon"/>
+                        </div>
+                        
+                        <div className="mic">
+                            <MicIcon/>
+                        </div> 
+                        <div className="share">
+                            <ScreenShareIcon className="ShareIcon"/>
+                        </div>
+                        <div className="record">
+                            <AlbumOutlinedIcon className="VideoIcon"/>
+                        </div>
+                        
 
                     </div>
                     
