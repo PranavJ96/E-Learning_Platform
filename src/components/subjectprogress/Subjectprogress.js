@@ -12,7 +12,7 @@ import { Bar } from 'react-chartjs-2';
                 <div className='highlow'>
                    <div className='Marks_subject'>
                    
-                <img className="Courselist_icon2" src="./computer.png"></img>
+                <img className="Courselist_icon2" src="./avatar.png"></img>
    
                 <div className='Classrank'>
                 <div className='highest_marks'>Highest Marks</div>
@@ -23,7 +23,7 @@ import { Bar } from 'react-chartjs-2';
             </div>
             
             <div className='Marks_subject'>
-                <img className="Courselist_icon2" src="./computer.png"></img>
+                <img className="Courselist_icon2" src="./avatar.png"></img>
                
    
                 <div className='Classrank'>
@@ -52,7 +52,7 @@ import { Bar } from 'react-chartjs-2';
                 <div className='highlow'>
                    <div className='Marks_subject'>
                    
-                <img className="Courselist_icon2" src="./computer.png"></img>
+                <img className="Courselist_icon2" src="./avatar.png"></img>
    
                 <div className='Classrank'>
                 <div className='highest_marks'>Highest Marks</div>
@@ -63,7 +63,7 @@ import { Bar } from 'react-chartjs-2';
             </div>
             
             <div className='Marks_subject'>
-                <img className="Courselist_icon2" src="./computer.png"></img>
+                <img className="Courselist_icon2" src="./avatar.png"></img>
    
                 <div className='Classrank'>
                 <div className='highest_marks'>Lowest Marks</div>
@@ -91,7 +91,7 @@ import { Bar } from 'react-chartjs-2';
                 <div className='highlow'>
                    <div className='Marks_subject'>
                    
-                <img className="Courselist_icon2" src="./computer.png"></img>
+                <img className="Courselist_icon2" src="./avatar.png"></img>
    
                 <div className='Classrank'>
                 <div className='highest_marks'>Highest Marks</div>
@@ -102,7 +102,7 @@ import { Bar } from 'react-chartjs-2';
             </div>
             
             <div className='Marks_subject'>
-                <img className="Courselist_icon2" src="./computer.png"></img>
+                <img className="Courselist_icon2" src="./avatar.png"></img>
    
                 <div className='Classrank'>
                 <div className='highest_marks'>Lowest Marks</div>
@@ -130,7 +130,7 @@ import { Bar } from 'react-chartjs-2';
                 <div className='highlow'>
                    <div className='Marks_subject'>
                    
-                <img className="Courselist_icon2" src="./computer.png"></img>
+                <img className="Courselist_icon2" src="./avatar.png"></img>
    
                 <div className='Classrank'>
                 <div className='highest_marks'>Highest Marks</div>
@@ -141,7 +141,7 @@ import { Bar } from 'react-chartjs-2';
             </div>
             
             <div className='Marks_subject'>
-                <img className="Courselist_icon2" src="./computer.png"></img>
+                <img className="Courselist_icon2" src="./avatar.png"></img>
    
                 <div className='Classrank'>
                 <div className='highest_marks'>Lowest Marks</div>

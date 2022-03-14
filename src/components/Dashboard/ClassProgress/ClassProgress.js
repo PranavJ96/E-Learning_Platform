@@ -1,10 +1,11 @@
 import "./ClassProgress.css"
 
 
-const ClassProgress = ({ CourseName, ClassName, Duration, path }) => {
+const ClassProgress = ({ CourseName, ClassName, Duration, path, isSelected}) => {
+    console.log(isSelected)
     return (
         <div >
-        <div className="Course_List">
+        <div className= {isSelected===false ? "Course_List": "Courselistselected"}  >
             <img className="Courselist_icon" src="./computer.png"></img>
             <div className="Course_Titlelist">
             <div className="Course_Namelist"> {CourseName}</div>

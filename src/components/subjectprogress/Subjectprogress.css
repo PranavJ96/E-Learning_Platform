@@ -27,10 +27,11 @@
 }
 
 .Courselist_icon2 {
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     padding-left: 20px;
     padding-top: 20px;
+    padding-right: 10px;
 }
 
 .highlow {
