@@ -33,11 +33,7 @@ const Coursedetails = () => {
         <div className="Coursestyle">
           <div className="heading_details">Discrete Mathematics</div>
           <div className="coursedetails">
-            <iframe
-              title="video"
-              className="Coursedetailsimage_style"
-              src="https://www.youtube.com/embed/tgbNymZ7vqY"
-            ></iframe>
+          <iframe className="Coursedetailsimage_style" src="https://www.youtube.com/embed/XQoLVl31ZfQ" title="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div className="subheading_details">Course Details</div>
             <div className="Text_style">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -73,11 +69,7 @@ const Coursedetails = () => {
         <div className="Coursestyle">
           <div className="heading_details">Discrete Mathematics</div>
           <div className="coursedetails">
-            <iframe
-              title="video"
-              className="Coursedetailsimage_style"
-              src="https://www.youtube.com/embed/tgbNymZ7vqY"
-            ></iframe>
+          <iframe className="Coursedetailsimage_style" src="https://www.youtube.com/embed/XQoLVl31ZfQ" title="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             <div className="subheading_details">Course Details</div>
             <div className="Text_style">
               Lorem Ipsum is simply dummy text of the printing and typesetting
