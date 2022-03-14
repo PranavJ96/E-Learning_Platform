@@ -12,7 +12,7 @@ const AssignmentFiles = ({ numberOfItems }) => {
         <AssignmentUpload AssignmentName = "Discrete Notes" path="/discreteNotes.pdf"/>
         </div>);
       }
-      else{
+      else {
         return(<div>
         <AssignmentUpload AssignmentName = "Assignment for Unit 1" path="/"/>
         <AssignmentUpload AssignmentName = "Discrete Notes" path="/discreteNotes.pdf"/>

@@ -11,7 +11,7 @@ function Chat() {
         <SideNav pageName="Chat"/>
       </div>
       <div class="main-content-dashboard">
-        <div class="chat-Header">Chat</div>
+        <div className="chat-Header">Chat</div>
         <div class="chatContent">
           <div class="ChatListContainer">
             <ChatList />

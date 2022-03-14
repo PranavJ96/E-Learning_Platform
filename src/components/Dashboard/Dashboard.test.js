@@ -1,30 +1,16 @@
-import { mount } from "enzyme";
-import { MemoryRouter } from "react-router-dom";
-import App from "./App";
-import About from "./components/About/about";
+import { shallow } from "enzyme";
 
-import Home from "./components/Home/Home";
-import ProductDetails from "./components/ProductDetails/ProductDetails";
-import Products from "./components/Products/Products";
+import SideNav from "../SideNav/SideNav";
+import Dashboard from "./Dashboard";
 
-describe("App Component", () => {
+describe("Dashboard", () => {
   let wrapper = null;
 
-  const component = (path) => {
-    return mount(
-      <MemoryRouter initialEntries={[`${path}`]}>
-        <App />
-      </MemoryRouter>
-    );
-  };
-
   beforeEach(() => {
-    wrapper = component();
+    wrapper = shallow(<Dashboard />);
   });
 
-  it("User Type is matching", () => {
-    const switchRouter = wrapper.find({ "data-testid": "Switch" });
-    expect(switchRouter.length).toBe(1);
+  it('renders the SideNav component', () => {
+    expect(wrapper.find(SideNav).length).toBe(1);
   });
-
 });

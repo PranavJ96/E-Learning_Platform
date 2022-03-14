@@ -20,11 +20,12 @@ const Coursedetails = () => {
       );
     },
   });
-  const fileUploaded = files.map((file) => {
-    if (file.name !== undefined) {
-      numberOfFiles += 1;
-    }
-  });
+  
+    const fileUploaded = files.map((file) => {
+      if (file.name !== undefined) {
+        numberOfFiles += 1;
+      }
+    });
   if(userType==="1"){
     return (
       <div className="Screen_Coursedetails">
@@ -92,16 +93,7 @@ const Coursedetails = () => {
           </div>
         </div>
         <div className="TeacherandUpload">
-          <div className="teachersdetails">
-            <div className="Teacher_Heading">Meet Your Professor</div>
-            <img alt="teacherImage" className="profilestyle" src="/teacher.jpg" />
-            <div className="Teacher_Heading2">Prof. Dr. Saketh Jadhav</div>
-            <div className="Teacher_Heading3">HOD Mathematics</div>
-            <div className="Message_Teacher">
-              <button className="button">Message</button>
-            </div>
-          </div>
-          <div {...getRootProps()} className="uploadCourse">
+        <div {...getRootProps()} className="uploadCourse">
             <div className="Upload_Content">
               <div className="UploadFiles">Drag Files Here</div>
               <div className="UploadFiles_OR">Or</div>
@@ -109,6 +101,7 @@ const Coursedetails = () => {
               <button className="button">Upload Files</button>
             </div>
           </div>
+          
         </div>
       </div>
     );

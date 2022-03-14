@@ -1,3 +1,3 @@
-module.exports = {
-    setupFiles:["<rootDir>/src/setupTests.js"],
-};
+module.export ={
+    setupFiles:[ '<rootDir>/src/setUpTests.js']
+   }

@@ -9,7 +9,7 @@ function Dashboard() {
           <SideNav  pageName="profile"/>
         </div>
         <div class="main-content-dashboard">
-          <div class="myProfile-Header">My Profile</div>
+          <div className="myProfile-Header">My Profile</div>
           <div class="content">
                 <div class="MyProfileAccountContainer">
                     <AccountDetailsStudent/>
