@@ -7,7 +7,6 @@ import SideNav from "../SideNav/SideNav";
 import {useState} from 'react';
 import ClassProgress from "../Dashboard/ClassProgress/ClassProgress";
 import Studentprogress from "../subjectprogress/Subjectprogress";
-import { render } from "@testing-library/react";
 let userType = localStorage.getItem("userType");
 let Dashboard;
 if(userType==="1"){
