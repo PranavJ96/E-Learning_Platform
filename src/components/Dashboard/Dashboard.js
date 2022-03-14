@@ -40,9 +40,41 @@ if(userType==="1"){
 else{
   Dashboard = () => {
     const [PageNumber, setPageNumber] = useState();
+    const [firstselected, setfirstselected] = useState(false);
+    const [secondselected, setsecondselected] = useState(false);
+    const [thirdselected, setthirdselected] = useState(false);
+    const [fourthselected, setfourthselected] = useState(false);
+    
     function studentProgressSelection(pageNumber){
       setPageNumber(pageNumber)
-      console.log(PageNumber)
+      if (pageNumber===1)
+      {
+        setfirstselected(true);
+        setsecondselected(false);
+        setthirdselected(false);
+        setfourthselected(false);
+    }
+    else if (pageNumber===2)
+    {
+      setfirstselected(false);
+      setsecondselected(true);
+      setthirdselected(false);
+      setfourthselected(false);
+  }
+  else if (pageNumber===3)
+  {
+    setfirstselected(false);
+    setsecondselected(false);
+    setthirdselected(true);
+    setfourthselected(false);
+  }
+else if (pageNumber===4)
+{
+  setfirstselected(false);
+  setsecondselected(false);
+  setthirdselected(false);
+  setfourthselected(true);
+}
     }
       return (
         <div class="container">
@@ -55,16 +87,16 @@ else{
               <div className="Progress_heading">Class Progress Monitor</div>
               <div className="Progress_subheading">Check progress of classes you teach</div>
               <div onClick={() =>studentProgressSelection(1)}>
-                       <ClassProgress CourseName = "Discrete Mathematics" ClassName="K1501" Duration="December-April" path="/"/>
+                       <ClassProgress CourseName = "Discrete Mathematics" ClassName="K1501" Duration="December-April" path="/" isSelected={firstselected}/>
               </div>
               <div onClick={() =>studentProgressSelection(2)}>
-                       <ClassProgress CourseName = "Assignment for Unit 1" ClassName="K1501" Duration="December-April" path="/"/>
+                       <ClassProgress CourseName = "Java Programming" ClassName="K1501" Duration="December-April" path="/" isSelected={secondselected}/>
               </div>
               <div onClick={() =>studentProgressSelection(3)}>
-                       <ClassProgress CourseName = "Assignment for Unit 1" ClassName="K1501" Duration="December-April" path="/"/>
+                       <ClassProgress CourseName = "Assignment for Unit 1" ClassName="K1501" Duration="December-April" path="/" isSelected={thirdselected}/>
               </div>
               <div onClick={() =>studentProgressSelection(4)}>
-                       <ClassProgress CourseName = "Assignment for Unit 1" ClassName="K1501" Duration="December-April" path="/"/>
+                       <ClassProgress CourseName = "Assignment for Unit 1" ClassName="K1501" Duration="December-April" path="/" isSelected={fourthselected}/>
               </div>
             </div>
           </div>

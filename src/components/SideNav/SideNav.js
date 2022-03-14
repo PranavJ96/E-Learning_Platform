@@ -32,7 +32,7 @@ if(userType==="1"){
     return (
       <div class="nav-container">
         <div class="logoImg">
-          <img src="/logo.png" alt="logo" width="100px" />
+          <img src="/logo1.png" alt="logo" width="100px" />
         </div>
         <div class="navButtons">
           <NavLink value="Dashboard" path="/dashboard" isActive={dashActive} isSubmit="0" />
@@ -92,7 +92,7 @@ else{
     return (
       <div class="nav-container">
         <div class="logoImg">
-          <img src="/logo.png" alt="logo" width="100px" />
+          <img src="/logo1.png" alt="logo" width="100px" />
         </div>
         <div class="navButtons">
           <NavLink value="Dashboard" path="/dashboard" isActive={dashActive} isSubmit="0" />
