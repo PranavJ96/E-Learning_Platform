@@ -1,7 +1,6 @@
 import "./App.css";
 import Chat from "./components/Chat/Chat";
 import React, {Fragment} from 'react';
-import ReactDOM from "react-dom";
 import Dashboard from "./components/Dashboard/Dashboard";
 import PrivateRoute from "./PrivateRoute";
 import Coursescreen from "./components/Course_nav/Coursescreen";

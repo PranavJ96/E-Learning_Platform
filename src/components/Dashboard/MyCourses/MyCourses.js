@@ -14,7 +14,7 @@ function MyCourses() {
           <div class="MyCourseProfName">By: Dr. Prof. Shubham Choudhary</div>
         </div>
         <div class="courseDetailsNavigate">
-          <SubmitButton value="View Course" path="/" />
+          <SubmitButton value="View Course" path="/coursedetails" />
         </div>
       </div>
       <div class="courseDetails">
@@ -26,7 +26,7 @@ function MyCourses() {
           <div class="MyCourseProfName">By: Dr. Prof. Shubham Choudhary</div>
         </div>
         <div class="courseDetailsNavigate">
-          <SubmitButton value="View Course" path="/" />
+          <SubmitButton value="View Course" path="/coursedetails" />
         </div>
       </div>
       {/* <div class="courseDetails">
