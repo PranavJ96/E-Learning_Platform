@@ -6,7 +6,7 @@ function MyDeadlines() {
       <div class="MyDeadlineHeader">My Deadlines</div>
       <div class="deadlineDetails">
         <div class="deadlineDetailsLogo">
-          <WhatshotIcon />
+        <img src="/computer.jpg" alt="subjectImage" class="subjectIconStyle" />
         </div>
         <div class="deadlineDetailsText">
           <div>Computer Science</div>

@@ -35,7 +35,7 @@ function ChatDetails() {
         </div>
         <div>
           <img
-            src="/teacher.jpg"
+            src="/MicrosoftTeams-image6.jpg"
             alt="profilepic"
             class="profilePicInChat"
             width="100px"
@@ -71,7 +71,7 @@ function ChatDetails() {
         </div>
         <div>
           <img
-            src="/teacher.jpg"
+            src="/MicrosoftTeams-image6.jpg"
             alt="profilepic"
             class="profilePicInChat"
             width="100px"

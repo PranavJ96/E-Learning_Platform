@@ -56,7 +56,7 @@ function Student() {
             </div>
             <div class="StudentListItems">
                 <div class="studentListImageDiv">
-                    <img src="/teacher.jpg" alt="studentImage" class="studentImageList" />
+                    <img src="/MicrosoftTeams-image.png" alt="studentImage" class="studentImageList" />
                 </div>
                 <div class="studentlistName">
                     Chaitali Kulkarni
@@ -64,7 +64,7 @@ function Student() {
             </div>
             <div class="StudentListItems">
                 <div class="studentListImageDiv">
-                    <img src="/teacher.jpg" alt="studentImage" class="studentImageList" />
+                    <img src="/MicrosoftTeams-image7.jpg" alt="studentImage" class="studentImageList" />
                 </div>
                 <div class="studentlistName">
                     Swati Singh
@@ -72,7 +72,7 @@ function Student() {
             </div>
             <div class="StudentListItems">
                 <div class="studentListImageDiv">
-                    <img src="/teacher.jpg" alt="studentImage" class="studentImageList" />
+                    <img src="/MicrosoftTeams-image2.jpg" alt="studentImage" class="studentImageList" />
                 </div>
                 <div class="studentlistName">
                 Prachi Jagtap
@@ -80,7 +80,7 @@ function Student() {
             </div>
             <div class="StudentListItems">
                 <div class="studentListImageDiv">
-                    <img src="/teacher.jpg" alt="studentImage" class="studentImageList" />
+                    <img src="/MicrosoftTeams-image3.jpg" alt="studentImage" class="studentImageList" />
                 </div>
                 <div class="studentlistName">
                 Siddhi Deshpande
@@ -88,7 +88,7 @@ function Student() {
             </div>
             <div class="StudentListItems">
                 <div class="studentListImageDiv">
-                    <img src="/teacher.jpg" alt="studentImage" class="studentImageList" />
+                    <img src="/MicrosoftTeams-image4.jpg" alt="studentImage" class="studentImageList" />
                 </div>
                 <div class="studentlistName">
                 Saurabh Shivtarkar
@@ -96,7 +96,7 @@ function Student() {
             </div>
             <div class="StudentListItems">
                 <div class="studentListImageDiv">
-                    <img src="/teacher.jpg" alt="studentImage" class="studentImageList" />
+                    <img src="/MicrosoftTeams-image5.jpg" alt="studentImage" class="studentImageList" />
                 </div>
                 <div class="studentlistName">
                 Diptesh Gaikwad
@@ -104,7 +104,7 @@ function Student() {
             </div>
             <div class="StudentListItems">
                 <div class="studentListImageDiv">
-                    <img src="/teacher.jpg" alt="studentImage" class="studentImageList" />
+                    <img src="/MicrosoftTeams-image6.jpg" alt="studentImage" class="studentImageList" />
                 </div>
                 <div class="studentlistName">
                 Mohitosh Chaudhari
@@ -117,7 +117,7 @@ function Student() {
               </div>
               <div class="studentImgName">
                     <div>
-                    <img src="/teacher.jpg" alt="studentImage" class="studentImageDetails" />
+                    <img src="/MicrosoftTeams-image7.jpg" alt="studentImage" class="studentImageDetails" />
                     </div>
                     <div class="studentDetailsName">
                         Swati Singh

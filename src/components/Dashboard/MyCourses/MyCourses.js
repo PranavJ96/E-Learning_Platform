@@ -7,11 +7,11 @@ function MyCourses() {
       <div class="MyCourseHeader">My Courses</div>
       <div class="courseDetails">
         <div class="courseDetailsLogo">
-          <WhatshotIcon />
+        <img src="/mathematics.jpg" alt="subjectImage" class="subjectIconStyle" />
         </div>
         <div class="courseDetailsText">
           <div>Discrete Mathematics</div>
-          <div class="MyCourseProfName">By: Dr. Prof. Shubham Choudhary</div>
+          <div class="MyCourseProfName">By: Dr. Prof. Viswajith Nair</div>
         </div>
         <div class="courseDetailsNavigate">
           <SubmitButton value="View Course" path="/coursedetails" />
@@ -19,11 +19,12 @@ function MyCourses() {
       </div>
       <div class="courseDetails">
         <div class="courseDetailsLogo">
-          <WhatshotIcon />
+          
+        <img src="/chemistry.jpg" alt="subjectImage" class="subjectIconStyle" />
         </div>
         <div class="courseDetailsText">
           <div>Chemistry</div>
-          <div class="MyCourseProfName">By: Dr. Prof. Shubham Choudhary</div>
+          <div class="MyCourseProfName">By: Dr. Prof. Mohitosh Chaudry</div>
         </div>
         <div class="courseDetailsNavigate">
           <SubmitButton value="View Course" path="/coursedetails" />

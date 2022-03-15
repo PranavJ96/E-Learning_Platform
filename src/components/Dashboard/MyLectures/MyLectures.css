@@ -1,8 +1,9 @@
 .lectureDetailsLogo{
-    padding-top:5px;
+    padding-top:0px;
     width:8%;
 }
 .lectureDetailsText{
+    padding-left:5px;
     width:50%;
 }
 .lectureDetailsNavigate{
@@ -10,4 +11,9 @@
     font-weight:bold;
     padding-top:3px;
     font-size:14px;
+}
+.subjectIconStyle{
+    width:33px;
+    height:33px;
+    border-radius:50%;
 }

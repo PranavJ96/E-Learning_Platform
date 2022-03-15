@@ -21,7 +21,7 @@ function ChatList() {
       <div class="ChatListItems">
         <div Class="ChatListItem">
           <div class="chatListProfilePic">
-            <img src="/teacher.jpg" alt="profilepic" class="profilePic" width="100px" />
+            <img src="/teacher.jpg" alt="profilepic" class="profilePic"  />
           </div>
           <div class="chatListNameAndText">
             <div class="chatListName">
@@ -42,11 +42,11 @@ function ChatList() {
         </div>
         <div Class="ChatListItem">
           <div class="chatListProfilePic">
-            <img src="/teacher.jpg" alt="profilepic" class="profilePic" width="100px" />
+            <img src="/MicrosoftTeams-image.png" alt="profilepic" class="profilePic"/>
           </div>
           <div class="chatListNameAndText">
             <div class="chatListName">
-              Prof. Dr. Saketh Jadav
+              Dr. Shruti Fernandes
             </div>
             <div class="chatListLastText">
                 Good Morning
@@ -54,7 +54,7 @@ function ChatList() {
           </div>
           <div>
             <div class="ChatListChatTime">
-              10.30
+              8.30
             </div>
             <div class="chatListChatNumber">
               1
@@ -63,29 +63,29 @@ function ChatList() {
         </div>
         <div Class="ChatListItem">
           <div class="chatListProfilePic">
-            <img src="/teacher.jpg" alt="profilepic" class="profilePic" width="100px" />
+            <img src="/MicrosoftTeams-image1.jpg" alt="profilepic" class="profilePic" width="100px" />
           </div>
           <div class="chatListNameAndText">
             <div class="chatListName">
-              Prof. Dr. Saketh Jadav
+            Prof. Sidhhant Shinde
             </div>
             <div class="chatListLastText">
-                Good Morning
+                Hello
             </div>
           </div>
           <div>
             <div class="ChatListChatTime">
-              10.30
+              yesterday
             </div>
           </div>
         </div>
         <div Class="ChatListItem">
           <div class="chatListProfilePic">
-            <img src="/teacher.jpg" alt="profilepic" class="profilePic" width="100px" />
+            <img src="/MicrosoftTeams-image2.jpg" alt="profilepic" class="profilePic" width="100px" />
           </div>
           <div class="chatListNameAndText">
             <div class="chatListName">
-              Prof. Dr. Saketh Jadav
+            Prof. Dr. Brian Fernandes
             </div>
             <div class="chatListLastText">
                 Good Morning
@@ -93,53 +93,53 @@ function ChatList() {
           </div>
           <div>
             <div class="ChatListChatTime">
-              10.30
+              yesterday
             </div>
           </div>
         </div>
         <div Class="ChatListItem">
           <div class="chatListProfilePic">
-            <img src="/teacher.jpg" alt="profilepic" class="profilePic" width="100px" />
+            <img src="/MicrosoftTeams-image3.jpg" alt="profilepic" class="profilePic" width="100px" />
           </div>
           <div class="chatListNameAndText">
             <div class="chatListName">
-              Prof. Dr. Saketh Jadav
+              Prof. Dr. Diptesh
             </div>
             <div class="chatListLastText">
-                Good Morning
+                Hi
             </div>
           </div>
           <div>
             <div class="ChatListChatTime">
-              10.30
+              2days
             </div>
           </div>
         </div>
         <div Class="ChatListItem">
           <div class="chatListProfilePic">
-            <img src="/teacher.jpg" alt="profilepic" class="profilePic" width="100px" />
+            <img src="/MicrosoftTeams-image4.jpg" alt="profilepic" class="profilePic" width="100px" />
           </div>
           <div class="chatListNameAndText">
             <div class="chatListName">
-              Prof. Dr. Saketh Jadav
+              Prof. Dr. Vishwajith Nair
             </div>
             <div class="chatListLastText">
-                Good Morning
+                Bye
             </div>
           </div>
           <div>
             <div class="ChatListChatTime">
-              10.30
+              3days
             </div>
           </div>
         </div>
         <div Class="ChatListItem">
           <div class="chatListProfilePic">
-            <img src="/teacher.jpg" alt="profilepic" class="profilePic" width="100px" />
+            <img src="/MicrosoftTeams-image5.jpg" alt="profilepic" class="profilePic" width="100px" />
           </div>
           <div class="chatListNameAndText">
             <div class="chatListName">
-              Prof. Dr. Saketh Jadav
+              Prof. Dr. Tapati pal
             </div>
             <div class="chatListLastText">
                 Good Morning
@@ -147,7 +147,7 @@ function ChatList() {
           </div>
           <div>
             <div class="ChatListChatTime">
-              10.30
+              5days
             </div>
           </div>
         </div>

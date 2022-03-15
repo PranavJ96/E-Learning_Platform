@@ -6,7 +6,7 @@ function MyLectures() {
       <div class="MyDeadlineHeader">My Lectures Today</div>
       <div class="deadlineDetails">
         <div class="lectureDetailsLogo">
-          <WhatshotIcon />
+        <img src="/chemistry.jpg" alt="subjectImage" class="subjectIconStyle" />
         </div>
         <div class="lectureDetailsText">
             Chemistry
@@ -15,7 +15,7 @@ function MyLectures() {
       </div>
       <div class="deadlineDetails">
         <div class="lectureDetailsLogo">
-          <WhatshotIcon />
+        <img src="/geography.jpg" alt="subjectImage" class="subjectIconStyle" />
         </div>
         <div class="lectureDetailsText">
             Geography

@@ -17,12 +17,17 @@
     color:#626060;
     
 }
+.subjectIconStyle{
+    width:33px;
+    height:33px;
+    border-radius:50%;
+}
 .courseDetailsLogo{
     padding-top:5px;
-    width:8%;
+    width:9%;
 }
 .courseDetailsText{
-    width:62%;
+    width:61%;
 }
 .courseDetailsNavigate{
     width:30%;
